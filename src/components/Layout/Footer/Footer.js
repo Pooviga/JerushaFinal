@@ -31,7 +31,7 @@ const Footer = () => {
                     <div className="flexing-apps">
                         <div className="flex-cont-foot">
                             <div className="zomato-cont">
-                                    <a href="" className=""><img className="zomato-foot" src={zomato}></img></a>
+                                    <a href="fg" className=""><img className="zomato-foot" src={zomato}></img></a>
                             </div>
                             <div className="swiggy-cont">
                                     <a href="" >
