@@ -1,0 +1,175 @@
+.mapframe{
+    position: absolute;
+    left: 0px; top: 0px; width: 256px; 
+    height: 256px; transition: opacity 200ms linear 0s;
+                
+}
+
+  
+  .flex-item-left_ {
+    padding-top: 50px;
+    flex: 65%;
+  }
+
+  
+  @media (max-width: 800px) {
+     .flex-item-left_ {
+      flex: 100%;
+    }
+  }
+.gHGDiu_{
+    padding-top: 2.5px;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    font-style: bold;
+    text-align: center;
+    height: 24px;
+    width: 90px;
+    color: white;
+    background-color: #FF0000;
+    font-weight:bold;
+}
+
+.phn{
+    color: white;
+    padding-top: 10px;
+    font-size: xx-large;
+    font-style: bold;
+    font-weight: bolder;
+}
+@media only screen and (max-width:768px){
+    .phn{
+        font-size: 21px;
+    }
+}
+
+.foot-head{
+    color: white;
+    padding-left: 20px;
+}
+@media only screen and (max-width:768px){
+    .foot-head{
+        font-size: 16px;
+    }
+}
+.line{
+    width:16%;
+    margin-top: 4%;
+    margin-left: 7% ;
+    border: 1.5px solid #FF0000;
+    background-color: #FF0000;
+}
+.iconss{
+    font-weight: lighter;
+}
+.flexing{
+    size: 50px;
+    display: flex;
+    color: white;
+    margin-top: 5%;
+}
+
+.parah{
+    color: #7A7A7A;
+    max-width: 100%;
+    margin-left: 7%;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 900;
+}
+@media only screen and(max-width:900px){
+    .parah{
+        font-size: 13px;
+        max-width: 90%;
+    }
+}
+.pg{
+    color: grey;
+}
+
+.mapp{
+    background-color: #232323;
+}
+
+
+.sjdgHF{
+    width:600%;
+    height:450%;
+}
+
+.flex-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-div-left{
+    flex:50%;
+    padding-bottom: 5%;
+}
+@media only screen and (max-width: 800px) {
+    .flex-div-left{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+.flex-div-right{
+    flex:50%;
+    overflow: hidden;
+}
+@media only screen and (max-width: 768px) {
+    .flex-div-left,.flex-div-right{
+       flex:100%;
+    }
+    .flex-div-right{
+        max-width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+}
+.maps{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .maps{
+        display: block;
+    }
+}
+.mapfull{
+    display: block;
+    margin-top: 15%;
+}
+@media only screen and (max-width: 768px) {
+    .mapfull{
+        display: none;
+    }
+}
+.flexing-apps{
+    
+    background-color: aqua;
+}
+@media only screen and (max-width:768px){
+    .flexing-apps{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+.flex-cont-foot{
+    display: flex;
+}
+.zomato-foot{
+    
+    width: 30%;           /* Safari/WebKit uses a non-standard name */
+}
+.swiggy-foot{
+    margin-top:4%;
+    width:30%;
+    
+}
+.zomato-cont{
+    /* width: 25%;        */
+
+}
+.swiggy-cont{
+    /* width: 25%; */
+}

@@ -1,0 +1,77 @@
+.navfixed{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height:100px;
+    background:rgba(255,255,255,0);
+    z-index: 10;
+}
+@media only screen and (max-width:768px){
+    .navfixed{
+      background:rgba(255,255,255,0.96);
+      height: 70px;
+    }
+}
+.navfixedscroll{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height:70px;
+    background:rgba(255,255,255,0.96);
+    transition: background 0.9s ease-in-out;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0, 0.3);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0, 0.3);
+  box-shadow: 0 8px 6px -6px rgba(0,0,0, 0.3);
+    z-index: 10;
+    
+}
+.RhfHFj{
+  display: flex;
+  margin-right: 90px;
+  margin-bottom: -5px;
+}
+@media only screen and (max-width: 1000px) {
+  .RhfHFj{
+    display: none;
+  }
+}
+.social-icons{
+  text-decoration: none;
+  color: white;
+  
+}
+.social-media-scroll{
+  text-decoration: none;
+  color:black;
+}
+.fa:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.fa-instagram{
+  font-weight: 580;
+  margin-left: 15px;
+}
+
+.fa-send{
+  margin-left:15px;;
+}
+
+.IFYTYT{
+  margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+
+    transition: 0.3s ease padding;
+    padding: 0 100px;
+}
+
+.IFYTYT > div {
+  flex: 1;
+}

@@ -1,0 +1,232 @@
+.UYYbbv{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom:5%;
+}
+@media only screen and (max-width: 1200px) {
+    .gapnutrition{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+.nfsplit{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+.nftop{
+    width:100%;
+}
+.nfsplit-left{
+    flex: 50%;
+    color:black;
+
+}
+.nfsplit-right{
+    flex: 50%;
+}
+@media (max-width: 800px) {
+    .nfsplit-right {
+        margin-top: 5%;
+        margin-bottom: 5%;
+      flex: 100%;
+    }
+    .nfsplit-left {
+        flex: 100%;
+    }
+}
+.sdjkYT{
+    margin-top: 5%;
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: #FF0000;
+    font-weight:bold;
+    width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content;    /* Firefox/Gecko */
+  width: -webkit-max-content; /* Chrome */
+  width: max-content;
+}
+
+.right-nutrition{
+    margin-left: 15%;
+}
+.dYUUvvg{
+    line-height: 50px;
+    color:black;
+    font-size: 35px;
+    margin-top: 1%;
+    font-weight: bold;
+}
+.shsHJGY{
+    margin-top: 1%;
+    background-color: #FF0000;
+    border: 1.5px solid #FF0000;
+    width:6%;
+    color: #FF0000;
+}
+@media only screen and (max-width: 768px) {
+    .shsHJGY{
+        width: 20%;
+    }
+}
+.UThfYTR{
+    color: #827A79;
+    margin-top: 2%;
+    line-height: 28px;
+    word-spacing: 3px;
+}
+.HFiyFN{
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.HJFyrt{
+    color:rgb(40,40,40);
+    margin-top: 3%;
+    word-spacing: 3px;
+    line-height: 28px;
+}
+.JHuiIM{
+    color:rgb(40,40,40);
+}
+.JHFiyM{
+    color:rgb(40,40,40);
+    margin-top: 3%;
+    word-spacing: 6px;
+    line-height: 28px;
+}
+@media only screen and (max-width: 1200px) {
+    .HJFyrt,.JHFiyM,.UThfYTR{
+        word-spacing: 1px;
+    }
+}
+.CNPOVC{
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 3%;
+}
+.Homelink{
+    margin-left: 5px;
+    text-decoration: none;
+}
+.HJFuio{
+    margin-top: 3%;
+}
+.HFAQdf{
+    color:black;
+    margin-bottom: 2%;
+}
+.containernutrition{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-left: 10%;
+}
+@media only screen and (max-width: 768px) {
+    .containernutrition{
+        margin-left: 0%;
+    }
+}
+.containernutrition:hover{
+    filter: brightness(80%);
+}
+.foodImageNut{
+    width: 100%;
+}
+.bottom-left-nut{
+    width: auto;
+    background-color: rgb(255,255,255,0.8);
+    border-left-style: solid;
+   border-left-color:#FF0000;
+    position: absolute;
+    transform: translateX(-50%);
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    bottom: 3px;
+    left: 113px;
+}
+.img-nut-cap{
+    font-size: 13px;
+}
+.img-nut-cap2{
+    font-size: 17px;
+    margin-top: 2%;
+    color:black;
+    font-weight: bold;
+    padding-bottom: 13px;
+}
+.nutrition-right-down{
+    margin-left: 8%;
+}
+@media only screen and (max-width:768px){
+    .nutrition-right-down{
+        margin-left: 0%;
+    }
+}
+.quote-write{
+    position: relative;
+}
+.quote-cont{
+    color: #333;
+    max-width: 90%;
+    font-size: 28px;
+    font-family: Arial,sans-serif,"Open Sans";
+    line-height: 40px;
+    font-weight: bold;
+    margin-left: 17%;
+    margin-top: 10%;
+}
+@media only screen and (max-width:768px){
+    .quote-cont{
+        margin-left: 5%;
+    }
+}
+.quote-symbol{
+    position: absolute;
+    z-index: -1;
+    transform: translateY(-148%);
+}
+@media only screen and (max-width:768px){
+    .quote-symbol{
+        transform: translateY(-185%);
+    }
+}
+.quotes{
+    font-size:220px;
+    color:rgb(224,224,224);
+    letter-spacing: -10px;
+}
+.box-search-nfd{
+    height: 90vh;
+    filter:brightness(20%);
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+@media only screen and (max-width: 768px) {
+    .box-search-nfd{
+        height: 40vh;
+        background-size: 100% 100%;
+        background-repeat: none;
+        background-attachment: fixed;
+       
+    }
+}
+.caption-nfd{
+    position: absolute;
+    transform: translateY(-50%);
+    top:60%;
+    font-weight: bold;
+}
+@media only screen and (max-width:768px){
+    .caption-nfd{
+        margin-left: 5%;
+        top:26%;
+    }
+}

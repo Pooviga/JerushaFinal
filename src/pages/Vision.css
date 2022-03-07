@@ -1,0 +1,144 @@
+*{
+    color:#FF0000;;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/* @keyframes text-clip {
+    
+    from {
+        
+      clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+    }
+    to {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+  }
+   */
+  /* @keyframes outer-left {
+    from {
+      transform: translateX(50%);
+    }
+    to {
+      transform: none;
+    }
+  }
+  
+  @keyframes inner-left {
+    from {
+      transform: translateX(-30%);
+    }
+    to {
+      transform: none;
+    }
+  }
+   */
+  
+  .animatecon {
+    display: inline-block;
+    animation: inner-left 1s 1s ease both,
+      text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+  }
+  
+.hjHGDFG{
+    padding-top: 5%;
+}
+.hfGHDh{
+    font-weight: bold;
+    color:white;
+    background-color: red;
+    padding: 5px;
+    padding-right:5px;
+    font-size:0.8em;
+}
+.shdfHF{
+    padding-top: 2%;
+    font-size: 2.3em;
+    color:rgb(40,44,53);
+}
+@media only screen and (max-width: 768px) {
+    .shdfHF{
+        font-size: 1.8em;
+    }
+    .hjHGDFG{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+}
+.jhfHGk{
+    margin-top: 2%;
+    width:7%;
+    border:2px solid #FF0000 ;
+    background-color: #FF0000;
+}
+@media only screen and (max-width: 768px) {
+    .jhfHGk{
+        width:20%;
+    }
+}
+.ajgKJF{
+    margin-top:2%;
+    line-height: 30px;
+    color:#827A79;
+    word-spacing: 3px;
+    line-height: 28px;
+}
+.HJFhfh{
+    margin-top:3%;
+    font-weight: bold;
+    font-size:1.2em;
+}
+.ckhjkJH{
+    padding-top: 2%;
+    font-size: 2.3em;
+    color:rgb(40,44,53);
+}
+@media only screen and (max-width: 768px) {
+    .ckhjkJH{
+        font-size: 2em;
+    }
+}
+.hjLoJG{
+    margin-top: 2%;
+    width:7%;
+    background-color: #FF0000;
+    border:2px #FF0000 solid;
+}
+@media only screen and (max-width: 768px) {
+    .hjLoJG{
+        width:20%;
+    }
+}
+.btText{
+    margin-top:2%;
+    
+}
+.scJKGff{
+  color:black;
+  margin-top: 10px;
+  font-size:19px;
+  margin-left: 8%;
+  word-spacing: 3px;
+  line-height: 28px;
+}
+.iHJFii{
+  border-top: 1px dashed #827A79;
+  opacity: 0.5;
+  margin-top:5%;
+  margin-bottom: 5%;
+}
+.box-search-vision{
+  height: 90vh;
+  filter:brightness(25%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+}
+@media only screen and (max-width: 768px) {
+  .box-search-vision{
+      height: 45vh;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      filter: brightness(30%);
+  }
+}

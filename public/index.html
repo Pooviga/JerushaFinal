@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/gold.png" sizes="16x16 32x32" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/gold.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
+        crossorigin="anonymous">
+</script> 
+     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@300&family=Roboto:wght@700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Jerusha</title>
+    <style>
+      html {
+  scroll-behavior: smooth;
+}
+
+      .max-w-content {
+    max-width: 73rem;
+}
+.w-full {
+    width: 100%;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+      
+      .buttonload {
+  
+  color:grey; /* White text */
+  font-size: 24px; /* Set a font-size */
+}
+
+.fa {
+  margin-left: 50%;
+  margin-right: 8px;
+  margin-top: 20%;
+  margin-bottom: 30%;
+}
+    </style>
+    <script>
+      $(window).on("load",function(){
+
+        $("#Video1").bind("ended", function() {
+          document.getElementById('endedimg1').style.display='block';
+        });
+
+        $("#Video2").bind("ended", function() {
+          document.getElementById('endedimg2').style.display='block';
+        });
+
+        $("#Video3").bind("ended", function() {
+          document.getElementById('endedimg3').style.display='block';
+        });
+        
+
+        $numnv = $('.my-cardnv').length;
+        $evennv = $numnv / 2;
+            $oddnv = ($numnv + 1) / 2;
+
+            if ($numnv % 2 == 0) {
+              $('.my-cardnv:nth-child(' + $evennv + ')').addClass('active');
+              $('.my-cardnv:nth-child(' + $evennv + ')').prev().addClass('prev');
+              $('.my-cardnv:nth-child(' + $evennv + ')').next().addClass('next');
+            } else {
+              $('.my-cardnv:nth-child(' + $oddnv + ')').addClass('active');
+              $('.my-cardnv:nth-child(' + $oddnv + ')').prev().addClass('prev');
+              $('.my-cardnv:nth-child(' + $oddnv + ')').next().addClass('next');
+            }
+
+            $('.my-cardnv').click(function() {
+              $slidenv = $('.active').width();
+              console.log($('.active').position().left);
+              
+              if ($(this).hasClass('next')) {
+                $('.card-carouselnv').stop(false, true).animate({left: '-=' + $slidenv});
+              } else if ($(this).hasClass('prev')) {
+                $('.card-carouselnv').stop(false, true).animate({left: '+=' + $slidenv});
+              }
+              
+              $(this).removeClass('prev next');
+              $(this).siblings().removeClass('prev active next');
+              
+              $(this).addClass('active');
+              $(this).prev().addClass('prev');
+              $(this).next().addClass('next');
+            });
+            $('html body').keydown(function(e) {
+              if (e.keyCode == 37) { // left
+                $('.active').prev().trigger('click');
+              }
+              else if (e.keyCode == 39) { // right
+                $('.active').next().trigger('click');
+              }
+            });
+
+      });
+     
+      $(function() {
+    if (window.history && window.history.pushState) {
+        window.history.pushState('', null, '');
+        $(window).on('popstate', function() {
+          $numnv = $('.my-cardnv').length;
+        $evennv = $numnv / 2;
+            $oddnv = ($numnv + 1) / 2;
+
+            if ($numnv % 2 == 0) {
+              $('.my-cardnv:nth-child(' + $evennv + ')').addClass('active');
+              $('.my-cardnv:nth-child(' + $evennv + ')').prev().addClass('prev');
+              $('.my-cardnv:nth-child(' + $evennv + ')').next().addClass('next');
+            } else {
+              $('.my-cardnv:nth-child(' + $oddnv + ')').addClass('active');
+              $('.my-cardnv:nth-child(' + $oddnv + ')').prev().addClass('prev');
+              $('.my-cardnv:nth-child(' + $oddnv + ')').next().addClass('next');
+            }
+
+            $('.my-cardnv').click(function() {
+              $slidenv = $('.active').width();
+              console.log($('.active').position().left);
+              
+              if ($(this).hasClass('next')) {
+                $('.card-carouselnv').stop(false, true).animate({left: '-=' + $slidenv});
+              } else if ($(this).hasClass('prev')) {
+                $('.card-carouselnv').stop(false, true).animate({left: '+=' + $slidenv});
+              }
+              
+              $(this).removeClass('prev next');
+              $(this).siblings().removeClass('prev active next');
+              
+              $(this).addClass('active');
+              $(this).prev().addClass('prev');
+              $(this).next().addClass('next');
+            });
+            $('html body').keydown(function(e) {
+              if (e.keyCode == 37) { // left
+                $('.active').prev().trigger('click');
+              }
+              else if (e.keyCode == 39) { // right
+                $('.active').next().trigger('click');
+              }
+            });
+          });
+    }
+});
+      
+
+      $(function() {
+    if (window.history && window.history.pushState) {
+        window.history.pushState('', null, '');
+        $(window).on('popstate', function() {
+                    $num = $('.my-card').length;
+            $even = $num / 2;
+            $odd = ($num + 1) / 2;
+
+            if ($num % 2 == 0) {
+              $('.my-card:nth-child(' + $even + ')').addClass('active');
+              $('.my-card:nth-child(' + $even + ')').prev().addClass('prev');
+              $('.my-card:nth-child(' + $even + ')').next().addClass('next');
+            } else {
+              $('.my-card:nth-child(' + $odd + ')').addClass('active');
+              $('.my-card:nth-child(' + $odd + ')').prev().addClass('prev');
+              $('.my-card:nth-child(' + $odd + ')').next().addClass('next');
+            }
+
+            $('.my-card').click(function() {
+              $slide = $('.active').width();
+              console.log($('.active').position().left);
+              
+              if ($(this).hasClass('next')) {
+                $('.card-carousel').stop(false, true).animate({left: '-=' + $slide});
+              } else if ($(this).hasClass('prev')) {
+                $('.card-carousel').stop(false, true).animate({left: '+=' + $slide});
+              }
+              
+              $(this).removeClass('prev next');
+              $(this).siblings().removeClass('prev active next');
+              
+              $(this).addClass('active');
+              $(this).prev().addClass('prev');
+              $(this).next().addClass('next');
+            });
+
+            // Keyboard nav
+            $('html body').keydown(function(e) {
+              if (e.keyCode == 37) { // left
+                $('.active').prev().trigger('click');
+              }
+              else if (e.keyCode == 39) { // right
+                $('.active').next().trigger('click');
+              }
+            });
+        });
+    }
+});
+
+      $(window).on("load",function(){
+        $num = $('.my-card').length;
+            $even = $num / 2;
+            $odd = ($num + 1) / 2;
+
+            if ($num % 2 == 0) {
+              $('.my-card:nth-child(' + $even + ')').addClass('active');
+              $('.my-card:nth-child(' + $even + ')').prev().addClass('prev');
+              $('.my-card:nth-child(' + $even + ')').next().addClass('next');
+            } else {
+              $('.my-card:nth-child(' + $odd + ')').addClass('active');
+              $('.my-card:nth-child(' + $odd + ')').prev().addClass('prev');
+              $('.my-card:nth-child(' + $odd + ')').next().addClass('next');
+            }
+
+            $('.my-card').click(function() {
+              $slide = $('.active').width();
+              console.log($('.active').position().left);
+              
+              if ($(this).hasClass('next')) {
+                $('.card-carousel').stop(false, true).animate({left: '-=' + $slide});
+              } else if ($(this).hasClass('prev')) {
+                $('.card-carousel').stop(false, true).animate({left: '+=' + $slide});
+              }
+              
+              $(this).removeClass('prev next');
+              $(this).siblings().removeClass('prev active next');
+              
+              $(this).addClass('active');
+              $(this).prev().addClass('prev');
+              $(this).next().addClass('next');
+            });
+
+            // Keyboard nav
+            $('html body').keydown(function(e) {
+              if (e.keyCode == 37) { // left
+                $('.active').prev().trigger('click');
+              }
+              else if (e.keyCode == 39) { // right
+                $('.active').next().trigger('click');
+              }
+            });
+        });
+        
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"> <i class="fa fa-spinner fa-spin"></i></div>
+    
+  </body>
+</html>

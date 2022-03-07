@@ -1,0 +1,195 @@
+.droptext{
+    color:black;
+    font-size:14px;
+}
+.home-link{
+    padding-top: 25px;
+    text-decoration: none;
+    margin-right: 20px;
+    border:none;
+  position: relative;
+
+}
+
+
+.home-link::after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 5px;
+    left: 50%;
+    bottom:0;
+    background-color: #FF0000;
+    transition: all ease-in-out .2s;
+  }
+  .home-link:hover::after{
+    width: 100%;
+    left: 0;
+  }
+  
+
+.home-link-notsc{
+    padding-top: 40px;
+    text-decoration: none;
+    margin-right: 20px;
+    border:none;
+  position: relative;
+    
+}
+
+@media only screen and (min-width:768px) {
+    .home-link-notsc::after{
+        content: '';
+        position: absolute;
+        width: 0px;
+        height: 5px;
+        left: 50%;
+        bottom:0;
+        background-color: #FF0000;
+        transition: all ease-in-out .2s;
+      }
+      .home-link-notsc:hover::after{
+        width: 100%;
+        left: 0;
+      }
+}
+
+.home-link-text{
+    text-decoration: none;
+}
+@media only screen and (max-width: 768px){
+    .home-link{
+       padding-top: 0;
+       margin-bottom: 3%;
+    }
+    .home-link-text{
+        margin-top: -50px;
+        padding-right: 90%;
+    }
+    .home-link-notsc-text{
+        margin-top: -50px;
+        padding-right: 90%;
+    }
+    .home-link-notsc{
+       padding-top: 0;
+       margin-bottom: 3%;
+    }
+}
+.menu {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.menu:hover{
+    color:#FF0000;
+}
+@media only screen and (max-width: 768px){
+    .menu{
+        color:black;
+    }
+}
+.menu-black{
+    color: black;
+    font-size: 15px;
+}
+
+.menu-black:hover{
+    color:red;
+}
+
+.toppad{
+    top:100px;
+}
+.toppadscroll{
+    top: 50px;
+}
+
+.Dhgvh{
+    box-shadow: 0px 1px 5px grey ;
+    background-color:rgb(255, 255, 255,0.96);
+    top: 70px;
+    margin-left: -20px;
+    white-space: nowrap;
+    min-width: 200px;
+}
+@media only screen and (min-width: 900px) {
+    .Dhgvh{
+        position: absolute;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .Dhgvh{
+        min-width: 80px;
+        box-shadow: 0px 0px 0px grey ;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .Dhgvh{
+        margin-left: 0px;
+    }
+}
+/*top without scroll*/
+.HJFjf{
+     border: 1px solid grey;
+    background-color:rgb(255, 255, 255,0.8);
+    margin-left: -20px;
+    top: 100px;
+    white-space: nowrap;
+    min-width: 200px; 
+
+}
+@media only screen and (min-width: 900px) {
+    .HJFjf{
+        position: absolute;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .HJFjf{
+        min-width: 80px;
+        background-color:white;
+        box-shadow: 0px 0px 0px white ;
+        border: 0px solid grey;
+        margin-left: 0px;
+    }
+}
+
+.menui{
+    width: intrinsic;         
+    width: -moz-max-content;    
+    width: -webkit-max-content;
+    width: max-content;
+    margin-right: 0px;
+    text-decoration: none;
+}
+@media only screen and (max-width: 800px) {
+    .menui{
+        min-width:100%;
+        
+    }
+}
+.adksgT{
+    margin-right:20px;
+}
+
+.HSFDSDI{
+    background-color: rgb(255, 255, 255,0.8);
+    color:black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    text-align: left;
+    border-bottom: 0.1px solid rgb(216,216,216);
+    
+    width:105%;
+}
+.HSFDSDI:hover{
+        color: red;
+}
+@media only screen and (max-width: 800px) {
+    .HSFDSDI{
+        border-bottom: 0.1px solid rgb(216,216,216,0);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width:100%;
+    }
+}

@@ -1,0 +1,134 @@
+.aboutsplit{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutsplit-left{
+    flex: 60%;
+    color:white;
+    padding-right: 5%;
+}
+.aboutsplit-right{
+    flex: 40%;
+    /* background-color: aqua; */
+}
+@media (max-width: 800px) {
+    .aboutsplit-right {
+      flex: 100%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .aboutsplit-left {
+        flex: 100%;
+        margin-left: 5%;
+      margin-right: 5%;
+    }
+}
+.about-div-one{
+    margin-top: 10%;
+
+}
+.about-caption{
+    background-color: #FF0000;
+    color: white;
+    font-weight: bold;
+    width: intrinsic;           
+    width: -moz-max-content;    
+    width: -webkit-max-content; 
+    width: max-content;
+    margin-top:10%;
+}
+
+.about-head{
+    margin-top:2%;
+    color:black;
+    font-size: 3em;
+    font-weight: bold;
+}
+.hr-about{
+    margin-top: 2%;
+    width:10%;
+    border: 2px solid #FF0000;
+    background-color: #FF0000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.about-para-one
+{
+    color: grey;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    line-height: 28px;
+    word-spacing: 3px;
+}
+.aboutsplit-two{
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutsplit-left-two{
+    flex: 40%;
+    color:white;
+}
+.aboutsplit-right-two{
+    flex: 60%;
+    margin-top: 4%;
+    padding-left: 5%;
+}
+@media (max-width: 800px) {
+    .aboutsplit-right-two {
+      flex: 100%;
+      padding-left: 0%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .aboutsplit-left-two {
+        flex: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+.about-div-two{
+    margin-top: 5%;
+}
+.about-img{
+    width: 100%;
+    margin-top: 16%;
+}
+@media only screen and (max-width:768px){
+    .about-img{
+        margin-top: 10%;
+    }
+}
+.quote-catering{
+    color: white;
+    left: 40px;
+    padding-top: 5%;
+    padding-right: 40px;
+    line-height: 40px;
+    max-width: 70%;
+    font-weight: bold;
+    font-size: 24px;
+}
+@media only screen and (max-width:768px){
+    .quote-catering{
+        max-width: 90%;
+        padding-right: 10px;
+    }
+}
+.author-about{
+    color: white;
+    padding-top: 5%;
+    padding-right: 15%;
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
+@media only screen and (max-width:768px){
+    .about-img-quote{
+        width:90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        background-size: none;
+    }
+}

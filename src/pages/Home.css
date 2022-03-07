@@ -1,0 +1,460 @@
+.f{
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 5%;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    letter-spacing: -0.5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.s{
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 0.5%;
+    padding-bottom: 20px;
+    letter-spacing: -0.5px;
+    line-height: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+@media only screen and (max-width:768px) {
+    .f{
+        margin-top: 8%;
+        font-size: 35px;
+        margin-left: 3%;
+        margin-right: 3%;
+        text-transform: uppercase;
+    }
+    .s{
+        font-size: 28px;
+
+    }
+}
+.redText 
+{ 
+    color: #FF0000; 
+} 
+
+.sub_text{
+    padding-top: 10px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.a1{
+    flex:20%;
+    text-align: center;
+}
+.a2{
+    flex:20%;
+    text-align: center;
+}
+.a3{
+    flex:20%;
+    text-align: center;
+}
+.boxsplit-home{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap:30px; */
+}
+.boxsplit-home-top{
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.one{
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.two{
+    margin-top: 20px;
+    color: grey;
+    letter-spacing: 0.05em;
+    line-height: 2;
+}
+
+@media (max-width: 800px) {
+    .a1 {
+        flex: 100%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 3%;
+    }
+    .a2 {
+        flex: 100%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 3%;
+    }
+    .a3{
+        flex: 100%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 3%;
+    }
+  }
+/* .c_n{
+    margin-top: 50px;
+    width: 100%;
+    height: 480px;
+}
+.mini{
+    margin: auto;
+    text-align: center;
+    background-color: #FF0000;
+    width: 370px;
+    margin-top: -20px;
+} */
+/* .containernutrition:hover{
+    filter: brightness(80%);
+} */
+.container-home {
+    position: relative;
+    color: white;
+    width:100%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+.poster{
+    width: 100%;
+    height: 550px;
+}
+.poster-top{
+    width: 100%;
+    height: 550px;
+
+}
+.postermobile{
+ display: none;
+}
+.poster-top-mob{
+    display: none;
+}
+@media only screen and (max-width:768px){
+    .poster{
+        display: none;
+    }
+    .poster-top{
+        display: none;
+    }
+    .poster-top-mob{
+        display: block;
+        width: 100%;
+        height: 400px;
+        background-color: white;
+    }
+    .postermobile{
+        width: 100%;
+        height: 550px;
+        display: block;
+    }
+}
+
+.centered-home {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    /* margin: 0 -5px; */
+    background-color:white;
+    height:350px;
+    width:400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:red;
+    margin:auto;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+@media only screen and (max-width: 600px) {
+    .container-home{
+        margin-left: 0%;
+    }
+}
+.menu-d{
+    max-width: 100%;
+    overflow: hidden;
+}
+.mini{
+    /* margin: auto; */
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    height: 60px;
+    background-color: white;
+    line-height: 60px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    vertical-align: middle;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: gray;
+    justify-content:  space-around;
+}
+.b1{
+    flex:10%;
+    text-align: center;
+    /* background-color: palevioletred; */
+}
+.icons-home{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 90px;
+    height: 110px;
+}
+
+.imgs_slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+/* We have to set display: none;
+  If not, all of our images would 
+  be visible at the same time */
+.imgs_slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 800px;
+    height: 500px;
+}
+
+/* css for slide navigation */
+
+
+.navigation-btn {
+    border: 2px solid #FF0000;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.navigation-btn:hover {
+    background: #FF0000;
+}
+
+/* The checked attribute is used with
+reference to <input type="radio">, 
+when radio button is clicked the 
+class will shift w.r.t  left margin 
+as mentioned which results in image 
+slider */
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -20%;
+}
+
+#radio3:checked~.first {
+    margin-left: -40%;
+}
+
+#radio4:checked~.first {
+    margin-left: -60%;
+}
+
+#radio5:checked~.first {
+    margin-left: -80%;
+}
+
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .small{
+      padding-top: 10px;
+    width: 50px;
+    height: 50px;
+
+  }
+
+  .right {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height:350px;
+    width:40%;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    margin:auto;
+    justify-content: space-around;
+    /* box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  }
+  
+  @media only screen and (max-width:768px){
+    .right{
+       min-width:90%;
+    }
+}
+
+  .slider-home {
+    /* background-color: #404040; */
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.imgs_slides {
+    /* background-color: aqua; */
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+/* We have to set display: none;
+  If not, all of our images would 
+  be visible at the same time */
+.imgs_slides input {
+    display: none;
+}
+
+.slide {
+    /* background-color: bisque; */
+    width: 20%;
+    padding-top: 20px;
+    transition: 2s;
+}
+
+
+.slide img {
+    width: 350px;
+    height: 450px;
+}
+
+/* css for slide navigation */
+.navigation-home {
+    position: absolute;
+    width: 100%;
+    margin-top: -200px;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width:768px){
+    .navigation-home{
+        margin-top: -150px;
+    }
+}
+.navigation-btn {
+    border: 2px solid #FF0000;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.navigation-btn:hover {
+    background: #FF0000;
+}
+
+/* The checked attribute is used with
+reference to <input type="radio">, 
+when radio button is clicked the 
+class will shift w.r.t  left margin 
+as mentioned which results in image 
+slider */
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -20%;
+}
+
+#radio3:checked~.first {
+    margin-left: -40%;
+}
+
+#radio4:checked~.first {
+    margin-left: -60%;
+}
+
+#radio5:checked~.first {
+    margin-left: -80%;
+}
+
+.ek{
+    color: black;
+    font-weight: bold;
+    font-size:25px;
+    
+}
+.dho{
+    padding-top: 20px;
+    color: black;
+    font-size: 17px;
+    line-height: 2;
+}
+@media only screen and (max-width:768px) {
+    .dho{
+        max-width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+.theen{
+    color: #FF0000;
+    font-size: 23px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+@media only screen and (max-width:768px)
+{
+    .menu-display-home{
+        display: none;
+    }    
+}
+.menu-home-img{
+    width: 100%;
+}
+.pics{
+    padding-top: 20px;
+    width: 60px;
+    padding-bottom: 20px;
+}

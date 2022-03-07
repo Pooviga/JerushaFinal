@@ -1,0 +1,122 @@
+.catsplit{
+    display: flex;
+    flex-wrap: wrap;
+}
+.catsplit-left{
+    flex: 60%;
+    color:white;
+    padding-right: 5%;
+}
+.catsplit-right{
+    margin-top: 8%;
+    flex: 40%;
+    /* background-color: aqua; */
+}
+@media (max-width: 800px) {
+    .catsplit-right {
+      flex: 100%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .catsplit-left {
+        flex: 100%;
+        margin-left: 5%;
+      margin-right: 5%;
+    }
+}
+.cat-div-one{
+    margin-top: 10%;
+
+}
+.catering-caption{
+    background-color: #FF0000;
+    color: white;
+    font-weight: bold;
+    width: intrinsic;           
+    width: -moz-max-content;    
+    width: -webkit-max-content; 
+    width: max-content;
+    margin-top:10%;
+}
+
+.catering-head{
+    margin-top:2%;
+    color:black;
+    font-size: 3em;
+    font-weight: bold;
+}
+.hr-catering{
+    margin-top: 2%;
+    width:10%;
+    border: 2px solid #FF0000;
+    background-color: #FF0000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.catering-para-one
+{
+    color:rgb(80,80,80);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    line-height: 28px;
+    word-spacing: 3px;
+}
+.catsplit-two{
+    display: flex;
+    flex-wrap: wrap;
+}
+.catsplit-left-two{
+    flex: 40%;
+    color:white;
+}
+.catsplit-right-two{
+    flex: 60%;
+    /* background-color: aqua; */
+    padding-left: 5%;
+}
+@media (max-width: 800px) {
+    .catsplit-right-two {
+      flex: 100%;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding-left: 0%;
+    }
+    .catsplit-left-two {
+        flex: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+.cat-div-two{
+    margin-top: 5%;
+}
+.catering-img{
+    width: 100%;
+    margin-top: 14%;
+
+}
+.cat-bold{
+    color:black;
+}
+
+.vegetables{
+    margin-top: 5%;
+    width: 100%;
+    height:330px;
+}
+.box-search-catering{
+    height: 90vh;
+    filter:brightness(20%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+@media only screen and (max-width: 768px) {
+    .box-search-catering{
+        height: 40vh;
+        background-size: 100% 100%;
+        background-repeat: none;
+        background-attachment: fixed;
+        filter: brightness(30%);
+    }
+}

@@ -1,0 +1,22 @@
+.logonav{
+    width: 300%;
+    height:100%;
+    margin-left: 7%;
+}
+@media only screen and (max-width: 768px) {
+    .logonav{
+        margin-left:1%;
+    }
+}
+.logonavscroll{
+    width:400%;
+    height: 100%;
+    margin-left: 7%;
+}
+@media only screen and (max-width: 768px) {
+    .logonavscroll{
+        margin-left:0%;
+        width: 300%;
+        height: 100%;
+    }
+}
