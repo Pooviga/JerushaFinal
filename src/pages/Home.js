@@ -15,56 +15,65 @@ import people from "./images/people.jpeg";
 import catering from "./images/catering.jpeg";
 import bulk from "./images/bulk.jpeg";
 import imgscroll from "./images/imgscroll.jpg";
-import eat4 from "./images/eat4.jfif";
+import eat4 from "./images/white.jpg";
 import door_to_door from "./images/door-to-door.png"
 import chef_hat from "./images/chefs-hat.png"
 import clipboard from "./images/clipboard.png"
-
+import bghome from './images/food.jfif'
+import zomatohome from './images/zomato.png'
+import swiggyhome from './images/swiggy.png'
+import dosa from './images/dosa.png'
+import poori from './images/poori.png'
+import pongal from './images/pongal.png'
+import idly from './images/idly.png'
+import onion from './images/onion.png'
 
 
 const Home = () => {
+    const myStylehome={
+        backgroundImage: `url(${bghome})`,
+        
+    }; 
     return (
         <div>
-            <Banner />
+            <div className="box-search-home" style={myStylehome}>
+           </div>
             <div className="max-w-content w-full mx-auto">
-                <div className="caption-contact ">
-                    <p className="home-title">JERUSHA HOME FOODS</p>
-                    <p className="home-q">FRESH & HEALTHY</p>
-                    <p className="home-contact">HOME COOKED MEALS</p>
+                <div className="caption-home ">
+                    <p className="home-title-banner">JERUSHA HOME FOODS</p>
+                    <p className="home-contact-banner">CONTACT US - WE'D LOVE TO HEAR FROM YOU</p>
                     <hr className="hrbanner"></hr>
+                    <div className="home-apps-banner">
+                        <a href="" className="zom-cont"><img src={zomatohome} className="zomato-pic"></img></a>
+                        <a href="" className="swigg-cont"><img src={swiggyhome} className="swiggy-pic"></img></a>
+                        <p className="order-home-apps">ORDER NOW</p>
+                    </div>
                 </div>
             </div>
             <div className="first">
                 <p className="f">Homemade Food Delivery Service Coimbatore</p>
                 <p className="s"><span className="redText">WELCOME TO</span> JERUSHA FOODS</p>
             </div>
-
             <p className="sub_text">HOW IT WORKS</p>
-
             <div className="boxsplit-home max-w-content w-full mx-auto">
                 <div className="a1">
                     <img src={clipboard} className="pics"></img>
                     <p className="one">Choose Your Favorite</p>
-                    <p className="two">With our periodically-changing menu, choose your
-                    favorite food plan in just one click. Our recipes are cooked with seasonal
-                    produce to serve you a nutritious and a healthy diet.</p>
+                    <p className="two">Choose your preferred meal plan in a single click from our always changing selection. Our meals are prepared with seasonal ingredients to provide you with a delicious and healthy meal.</p>
                 </div>
                 <div className="a2">
                     <img src={chef_hat} className="pics"></img>
                     <p className="one">Our Chef Starts Cooking</p>
-                    <p className="two">Once you subscribe to our plan, our home Chefs start 
-                    cooking according to the plan you have chosen. Our chefs adhere to
-                    meticulously laid out quality standards.</p>
+                    <p className="two">Once you've signed up for our service, our home chefs will begin preparing according to the plan you've chosen. Our chefs adhere to a set of quality criteria that have been thoroughly spelled out.</p>
                 </div>
                 <div className="a3">
                     <img src={door_to_door} className="pics"></img>
                     <p className="one">Get It At Your Doorstep</p>
-                    <p className="two">Our delivery team will pick up your home cooked meal 
-                    from our kitchen and deliver it right to your doorstep, on time.Bon appetit!</p>
+                    <p className="two">Our delivery team will collect your freshly prepared dinner from our kitchen and deliver it to your house on time. Good luck with your meal!</p>
                 </div>
             </div>
             <div class="container-home">
-                <img className="poster-top"src={center_image}></img>
+                <img className="poster-top" src={center_image}></img>
                 <div className="poster-top-mob"></div>
                 <div class="centered-home">
                     <div className="mini">
@@ -77,7 +86,7 @@ const Home = () => {
                     </div>
                     <div className="mini">
                         <img className="small"src={bulk}></img>
-                        Bulk Orders
+                        Safe packaging
                     </div>
                 </div>
             </div>
@@ -87,22 +96,22 @@ const Home = () => {
                 <div className="a1">
                     <img src={meal_icon} className="icons-home"></img>
                     <p className="one">Home Cooked Meal</p>
-                    <p className="two">Get authentic home cooked meal at your doorstep.</p>
+                    <p className="two">Get a delicious home-cooked supper delivered right to your door.</p>
                 </div>
                 <div className="a1">
                     <img src={clock_icon} className="icons-home"></img>
                     <p className="one">Get More Free Time</p>
-                    <p className="two">Spend less time cooking and get more productive time.</p>
+                    <p className="two">Spend less time cooking and more time working.</p>
                 </div>
                 <div className="a1">
                     <img src={cross_icon} className="icons-home"></img>
                     <p className="one">No Commitments</p>
-                    <p className="two">Skip or Cancel the Meal. Your money will be refunded*.</p>
+                    <p className="two">The meal might be skipped or cancelled. Your money will be returned to you.</p>
                 </div>
                 <div className="a1">
                     <img src={menu_icon} className="icons-home"></img>
                     <p className="one">Amazing Menu</p>
-                    <p className="two">Amazing variety of food options every day for a healthy diet.</p>
+                    <p className="two">Every day, there is an amazing range of food options for a balanced diet.</p>
                 </div>
                 
             </div>
@@ -135,6 +144,54 @@ const Home = () => {
                 <HomePage/>
             </div>
             
+            <div className="slider_n">
+                <div className="slide_n active">
+                    <img src={dosa} alt="" className="menu-img-phone"></img>
+                    <div className="info_n">
+                    <h2>DOSA</h2>
+                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
+                    </div>
+                </div>
+                <div className="slide_n">
+                    <img src={poori} alt="" className="menu-img-phone"></img>
+                    <div className="info_n">
+                    <h2>POORI</h2>
+                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
+                    </div>
+                </div>
+                <div className="slide_n">
+                    <img src={pongal} alt="" className="menu-img-phone"></img>
+                    <div className="info_n">
+                    <h2>PONGAL</h2>
+                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
+                    </div>
+                </div>
+                <div className="slide_n">
+                    <img src={onion} alt="" className="menu-img-phone"></img>
+                    <div className="info_n">
+                    <h2>ONION OOTHAPAM</h2>
+                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
+                    </div>
+                </div>
+                <div className="slide_n">
+                    <img src={idly} alt="" className="menu-img-phone"></img>
+                    <div className="info_n">
+                    <h2>IDLY</h2>
+                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
+                    </div>
+                </div>
+                <div className="navigation_n">
+                    <i className="fa fa-chevron-left prev-btn_n"></i>
+                    <i className="fa fa-chevron-right next-btn_n"></i>
+                </div>
+                <div className="navigation-visibility_n">
+                    <div className="slide-icon_n active"></div>
+                    <div className="slide-icon_n"></div>
+                    <div className="slide-icon_n"></div>
+                    <div className="slide-icon_n"></div>
+                    <div className="slide-icon_n"></div>
+                </div>
+            </div>
             
             <div class="container-home">
                 <img className="poster"src={imgscroll}></img>

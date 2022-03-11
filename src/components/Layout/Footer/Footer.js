@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css"
-import zomato from './images/zomato.png'
+import zomato from './images/zomato1.png'
 import swiggy from './images/swiggy.png'
 
 const Footer = () => {
@@ -38,6 +38,9 @@ const Footer = () => {
                                         <img className="swiggy-foot" src={swiggy}></img>
                                     </a>
                             </div>
+                        </div>
+                        <div >
+                            <p className="order-p">Click now and order your favorite dishes</p>
                         </div>
                     </div>
                         

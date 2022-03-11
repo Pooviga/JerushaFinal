@@ -91,3 +91,15 @@ z-index:1000;
       filter: brightness(30%);
   }
 }
+.caption-video{
+  position: absolute;
+  top: 35%;
+  color: white;
+  font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  .caption-video{
+      top:17%;
+      margin-left: 5%;
+  }
+}

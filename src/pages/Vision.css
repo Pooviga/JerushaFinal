@@ -40,7 +40,7 @@
   }
   
 .hjHGDFG{
-    padding-top: 5%;
+    padding-top: 4%;
 }
 .hfGHDh{
     font-weight: bold;
@@ -48,7 +48,7 @@
     background-color: red;
     padding: 5px;
     padding-right:5px;
-    font-size:0.8em;
+    font-size:1em;
 }
 .shdfHF{
     padding-top: 2%;
@@ -127,7 +127,7 @@
   margin-bottom: 5%;
 }
 .box-search-vision{
-  height: 90vh;
+  height: 87vh;
   filter:brightness(25%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -140,5 +140,17 @@
       background-repeat: no-repeat;
       background-attachment: fixed;
       filter: brightness(30%);
+  }
+}
+.caption-vision{
+  position: absolute;
+  top: 35%;
+  color: white;
+  font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  .caption-vision{
+      top:18%;
+      margin-left: 5%;
   }
 }

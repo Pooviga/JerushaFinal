@@ -10,7 +10,7 @@
     }
 }
 .box-search-contact{
-    height: 90vh;
+    height: 87vh;
     filter:brightness(15%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -31,8 +31,9 @@
   }
   
   .flex-item-left {
-    padding: 10px;
-    flex: 65%;
+      margin-top: -2%;
+        padding: 10px;
+        flex: 65%;
   }
   
   .flex-item-right {
@@ -259,7 +260,7 @@
 .caption-contact{
     position: absolute;
     transform: translateY(-50%);
-    top:60%;
+    top:55%;
     font-weight: bold;
 }
 @media only screen and (max-width:768px){

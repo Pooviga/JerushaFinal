@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css"
 import Banner from "./Banner"
 import foodimg from './images/food.jfif';
+import bgcontact from './images/bg-contact.jpg'
 
 const CateringService = () => {
     const aboutStyle={
@@ -12,19 +13,19 @@ const CateringService = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundAttachment:'fixed',
-        
-        '@media only screen and (max-width: 768px)': {
-           
-        },
+    
     };
+    const myStyleabout={
+        backgroundImage: `url(${bgcontact})`,
+        
+    }; 
     return (
         <div>
-            <Banner/>
+            <div className="box-search-contact" style={myStyleabout}></div>
             <div className="max-w-content w-full mx-auto">
                 <div className="caption-contact ">
                     <p className="home-title">JERUSHA HOME FOODS</p>
-                    <p className="home-q">FRESH & HEALTHY</p>
-                    <p className="home-contact">HOME COOKED MEALS</p>
+                    <p className="home-contact">HOME COOKED MEALS - DELIVERY ACROSS RANIPET </p>
                     <hr className="hrbanner"></hr>
                 </div>
             </div>
@@ -40,12 +41,12 @@ const CateringService = () => {
                     <img src={foodimg} className="about-img"></img>
                 </div>
             </div>
-            <div className="about-img-quote">
+            {/* <div className="about-img-quote">
                 <div style={aboutStyle} className="w-full mx-auto max-w-content">
                     <p className="quote-catering w-full mx-auto max-w-content">“Food for us comes from our relatives, whether they have wings or fins or roots. That is how we consider food. Food has a culture. It has a history. It has a story. It has relationships.”</p>
                     <p className="author-about">~ Author</p>
                 </div>
-            </div>
+            </div> */}
             
              
             <div className="aboutsplit-two w-full mx-auto max-w-content">

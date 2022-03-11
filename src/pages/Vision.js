@@ -12,8 +12,8 @@ const Vision = () => {
         <div>
             <div className="box-search-vision" style={myStylevision}>
            </div>
-            <div class=" max-w-content w-full mx-auto">
-                <div class="caption ">
+            <div class="max-w-content w-full mx-auto">
+                <div class="caption-vision">
                     <p className="home-title">JERUSHA HOME FOODS</p>
                     <p className="home-contact">OUR VISION - TO PRODUCE HIGH QUALITY FOOD</p>
                     <hr className="hrbanner"></hr>

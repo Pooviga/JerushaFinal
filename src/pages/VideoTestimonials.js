@@ -19,7 +19,7 @@ const VideoTestimonials = () => {
             <div>
             <div className="box-search-video" style={myStylevideo}></div>
             <div class=" max-w-content w-full mx-auto">
-                <div class="caption ">
+                <div class="caption-video ">
                     <p className="home-title">JERUSHA HOME FOODS</p>
                     <p className="home-contact">HOME COOKED MEAL-CUSTOMER REVIEWS</p>
                     <hr className="hrbanner"></hr>

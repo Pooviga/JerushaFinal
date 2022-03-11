@@ -30,6 +30,7 @@
 }
 .catering-caption{
     background-color: #FF0000;
+    padding: 3px 5px;
     color: white;
     font-weight: bold;
     width: intrinsic;           
@@ -42,7 +43,7 @@
 .catering-head{
     margin-top:2%;
     color:black;
-    font-size: 3em;
+    font-size: 2.7em;
     font-weight: bold;
 }
 .hr-catering{
@@ -98,14 +99,54 @@
 .cat-bold{
     color:black;
 }
-
+.containernutrition-two{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    margin-left: 0%;
+}
+@media only screen and (max-width:768px) {
+    .containernutrition-two{
+        margin-left: 0%;
+    }
+}
 .vegetables{
     margin-top: 5%;
     width: 100%;
     height:330px;
 }
+.vegetables-two{
+    margin-top: 5%;
+    width: 100%;
+    height:330px;
+}
+.bottom-left-nut-two{
+    width: auto;
+    background-color: rgb(255,255,255,0.8);
+    border-left-style: solid;
+   border-left-color:#FF0000;
+    position: absolute;
+    transform: translateX(-50%);
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    bottom: 3px;
+    left: 113px;
+}
+.img-nut-cap-two{
+    font-size: 13px;
+}
+.img-nut-cap2-two{
+    font-size: 17px;
+    margin-top: 2%;
+    color:black;
+    font-weight: bold;
+    padding-bottom: 13px;
+}
 .box-search-catering{
-    height: 90vh;
+    height: 87vh;
     filter:brightness(20%);
     background-size: cover;
     background-repeat: no-repeat;

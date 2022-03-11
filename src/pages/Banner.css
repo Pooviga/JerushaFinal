@@ -98,10 +98,38 @@
         max-width: 90%;
     }
 }
+
+
+.hrbanner{
+    margin-top: 2%;
+    width:10%;
+    border: 2px solid #FF0000;
+    background-color: #FF0000;
+}
+.home-title-banner{
+    background-color: red;
+    color: white;
+    padding-left:15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: intrinsic;         
+    width: -moz-max-content;   
+    width: -webkit-max-content; 
+    width: max-content;
+}
 .home-contact{
     color: white;
-    font-weight: bolder;
-    font-size:4.4em;
+    font-weight: bold;
+    font-size:4em;
+    max-width: 52%;
+    margin-top: 1.5%;
+    line-height: 70px;
+}
+.home-contact-banner{
+    color: white;
+    font-weight: bold;
+    font-size:4.2em;
     max-width: 60%;
     margin-top: 1.5%;
     line-height: 70px;
@@ -110,12 +138,11 @@
     .home-contact{
         font-size: 2em;
         line-height: 40px;
+        max-width: 98%;
+    }
+    .home-contact-banner{
+        font-size: 2em;
+        line-height: 40px;
         max-width: 100%;
     }
-}
-.hrbanner{
-    margin-top: 2%;
-    width:10%;
-    border: 2px solid #FF0000;
-    background-color: #FF0000;
 }
