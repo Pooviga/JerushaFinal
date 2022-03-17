@@ -66,9 +66,7 @@
     </style>
     <script>
       $(window).on("load",function(){
-        console.log("dgdg");
-        
-    const slider = document.querySelector(".slider_n");
+        const slider = document.querySelector(".slider_n");
     const nextBtn = document.querySelector(".next-btn_n");
     const prevBtn = document.querySelector(".prev-btn_n");
     const slides = document.querySelectorAll(".slide_n");
@@ -134,7 +132,7 @@
 
         slides[slideNumber].classList.add("active");
         slideIcons[slideNumber].classList.add("active");
-      }, 4000);
+      }, 10000);
     }
     repeater();
 
@@ -148,6 +146,86 @@
       repeater();
     });
 
+
+    const slider1 = document.querySelector(".slider_z");
+    const nextBtn1 = document.querySelector(".next-btn_z");
+    const prevBtn1 = document.querySelector(".prev-btn_z");
+    const slides1 = document.querySelectorAll(".slide_z");
+    const slideIcons1 = document.querySelectorAll(".slide-icon_z");
+    const numberOfSlides1 = slides1.length;
+    var slideNumber1 = 0;
+
+    //image slider next button
+    nextBtn1.addEventListener("click", () => {
+      slides1.forEach((slide1) => {
+        slide1.classList.remove("active");
+      });
+      slideIcons1.forEach((slideIcon1) => {
+        slideIcon1.classList.remove("active");
+      });
+
+      slideNumber1++;
+
+      if(slideNumber1 > (numberOfSlides1 - 1)){
+        slideNumber1 = 0;
+      }
+
+      slides1[slideNumber1].classList.add("active");
+      slideIcons1[slideNumber1].classList.add("active");
+    });
+
+    //image slider previous button
+    prevBtn1.addEventListener("click", () => {
+      slides1.forEach((slide1) => {
+        slide1.classList.remove("active");
+      });
+      slideIcons1.forEach((slideIcon1) => {
+        slideIcon1.classList.remove("active");
+      });
+
+      slideNumber1--;
+
+      if(slideNumber1 < 0){
+        slideNumber1 = numberOfSlides1 - 1;
+      }
+
+      slides1[slideNumber1].classList.add("active");
+      slideIcons1[slideNumber1].classList.add("active");
+    });
+
+    //image slider autoplay
+    var playSlider1;
+
+    var repeater1 = () => {
+      playSlider1 = setInterval(function(){
+        slides1.forEach((slide1) => {
+          slide1.classList.remove("active");
+        });
+        slideIcons1.forEach((slideIcon1) => {
+          slideIcon1.classList.remove("active");
+        });
+
+        slideNumber1++;
+
+        if(slideNumber1 > (numberOfSlides1 - 1)){
+          slideNumber1 = 0;
+        }
+
+        slides1[slideNumber1].classList.add("active");
+        slideIcons1[slideNumber1].classList.add("active");
+      }, 10000);
+    }
+    repeater1();
+
+    //stop the image slider autoplay on mouseover
+    slider1.addEventListener("mouseover", () => {
+      clearInterval(playSlider1);
+    });
+
+    //start the image slider autoplay again on mouseout
+    slider1.addEventListener("mouseout", () => {
+      repeater1();
+    });
         $("#Video1").bind("ended", function() {
           document.getElementById('endedimg1').style.display='block';
         });

@@ -72,7 +72,7 @@
   }
 
   .card-carousel .my-card:nth-child(0):before {
-    content: '0';
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -243,7 +243,6 @@
   }
   
   .card-carouselnv .my-cardnv:nth-child(1):before {
-    content: '1';
     position: absolute;
     top: 50%;
     left: 50%;
@@ -255,7 +254,6 @@
   }
   
   .card-carouselnv .my-cardnv:nth-child(2):before {
-    content: '2';
     position: absolute;
     top: 50%;
     left: 50%;
@@ -267,7 +265,6 @@
   }
   
   .card-carouselnv .my-cardnv:nth-child(3):before {
-    content: '3';
     position: absolute;
     top: 50%;
     left: 50%;
@@ -356,6 +353,518 @@
     align-items: center;
     width:90%;
     height: auto;
+  }
+  .menu-img-meals{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 7%;
+    margin-left: 5%;
+    align-items: center;
+    width:90%;
+    height: auto;
+  }
+  .menu-img-pongal{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 7%;
+    margin-left: 5%;
+    align-items: center;
+    width:90%;
+    height: auto;
+  }
+  .menu-img-poori{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    align-items: center;
+    width:90%;
+    height: auto;
+  }
+  .menu-img-dosa{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    align-items: center;
+    width:90%;
+    height: auto;
+  }
+  .menu-img-idly{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    align-items: center;
+    width:90%;
+    height: auto;
+  }
+  .menu-img-chapathi{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 5%;
+    align-items: center;
+    width:90%;
+    height: auto;
+  }
+  .menu-img-onion{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 13%;
+    align-items: center;
+    width:75%;
+    height: auto;
+  }
+  .menu-img-kichidi{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    align-items: center;
+    width:80%;
+    height: auto;
+  }
+  .menu-img-tomatorice{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    align-items: center;
+    width:80%;
+    height: auto;
+  }
+  .menu-img-curdrice{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    align-items: center;
+    width:80%;
+    height: auto;
+  }
+  .menu-img-gheerice{
+    margin-left: auto;
+    justify-content: center;
+    margin-left: 10%;
+    align-items: center;
+    width:80%;
+    height: auto;
+  }
+  .menu-img-chickenbriyani{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 8%;
+    margin-left: 5%;
+    align-items: center;
+    width:90%;
+    height: auto;
+  }
+  .menu-img-muttonbriyani{
+    margin-left: auto;
+    justify-content: center;
+    margin-left: 10%;
+    align-items: center;
+    width:80%;
+    height: auto;
+  }
+  .menu-img-prawnbriyani{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    align-items: center;
+    width:90%;
+    height: auto;
+  }
+  .menu-img-eggbriyani{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    align-items: center;
+    width:90%;
+    height: auto;
+  }
+  .menu-img-chickengravy{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    align-items: center;
+    width:90%;
+    height: auto;
+  }
+  .menu-img-prawngravy{
+    margin-left: auto;
+    justify-content: center;
+    margin-left: 5%;
+    align-items: center;
+    width:85%;
+    height: auto;
+  }
+  .menu-img-crabgravy{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 8%;
+    align-items: center;
+    width:85%;
+    height: auto;
+  }
+  .menu-img-tamarind{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 8%;
+    align-items: center;
+    width:85%;
+    height: auto;
+  }
+  .menu-img-vegbriyani{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 8%;
+    align-items: center;
+    width:85%;
+    height: auto;
+  }
+  .menu-img-egggravy{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 13%;
+    margin-left: 8%;
+    align-items: center;
+    width:85%;
+    height: auto;
+  }
+  .menu-img-fishcurry{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 13%;
+    margin-left: 8%;
+    align-items: center;
+    width:85%;
+    height: auto;
+  }
+  .menu-img-limerice{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 13%;
+    margin-left: 5%;
+    align-items: center;
+    width:90%;
+    height: auto;
+  }
+  .menu-img-fishfry{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 8%;
+    align-items: center;
+    width:85%;
+    height: auto;
+  }
+  .menu-img-chicken65{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 8%;
+    align-items: center;
+    width:85%;
+    height: auto;
+  }
+  .menu-img-prawn65{
+    margin-left: auto;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 8%;
+    align-items: center;
+    width:85%;
+    height: auto;
+  }
+  .menu-caption-meals{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: -2%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-tamarind{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: -2%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-limerice{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: 5%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-vegbriyani{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: 5%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-pongal{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: -2%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-poori{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: 2%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-dosa{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: 1%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-idly{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: 1%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-chapathi{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: 1%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-onion{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: 0%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-kichidi{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: 7%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-tomatorice{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: -1%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-curdrice{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: -1%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-gheerice{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: -10%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-chickenbriyani{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: 2%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-muttonbriyani{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: -8%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-prawnbriyani{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-eggbriyani{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-chickengravy{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: -10%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-prawngravy{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin-top: -10%;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-crabgravy{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-egggravy{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-fishcurry{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    color:black;
+    margin-top: 5%;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-fishfry{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    color:black;
+    margin-top: 5%;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-chicken65{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    color:black;
+    margin-top: -10%;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
+  }
+  .menu-caption-prawn65{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    color:black;
+     align-items: center;
+     text-align: center;
+     font-size: 21px;
+     font-weight: bold;
+     width: 100%;
   }
   .menu-caption{
     padding-top: 10px;

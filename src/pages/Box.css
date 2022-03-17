@@ -5,6 +5,7 @@
 }
 .boxsplit-left{
     flex: 45%;
+    margin-bottom: 5%;
     /* margin-right: 2px; */
 }
 .boxsplit-right{
@@ -14,12 +15,15 @@
     .boxsplit-right {
       flex: 100%;
       margin-left: 3%;
-        margin-right: 3%;
+      margin-right: 3%;
+      margin-bottom:  3%;
+
     }
     .boxsplit-left {
         flex: 100%;
         margin-left: 3%;
         margin-right: 3%;
+        margin-bottom: 0%;
     }
   }
 
@@ -34,7 +38,7 @@
     width: max-content;
     height:26px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 15%;
     margin-bottom: 20px;
     letter-spacing: -0.5px;
     padding-top: 3px;
@@ -66,7 +70,7 @@
     font-size: 49px;
     letter-spacing: -1px;
     font-weight: bolder;
-    margin-top: 56px;
+    margin-top: 4%;
 }
 @media only screen and (max-width: 768px) {
     .s_t{
@@ -81,6 +85,13 @@
     margin-bottom: 100px;
     width: 13%;
 }
+.hrmeals-break{
+    border: 2px solid #FF0000;
+    background-color: #FF0000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 13%;
+}
 
 .img1{
     height: 300px;
@@ -93,8 +104,12 @@
 .parah2{
     color: black;
     margin-top: 30px;
-    letter-spacing: -0.5px;
-    line-height: 2;
+    line-height: 30px;
+}
+.parah3-dinner{
+    color: black;
+    margin-top: 1%;
+    line-height: 30px;
 }
 
 .img2{
@@ -129,7 +144,7 @@
 .logo{
     height: 350px;
     width: 100%;
-    margin-top: -40px;
+    margin-top: -60px;
 }
 
 .chart{
@@ -152,7 +167,11 @@
     margin-right: 5%;
     text-align: center;
     letter-spacing: 2px;
-
+}
+@media only screen and (max-width:768px){
+    .menu-box-alt{
+        margin-top: 0px;
+    }
 }
 
 .menuchart{
@@ -212,4 +231,30 @@
     height: 500px;
     width: 100%;
     margin-top: 40px;
+}
+.meals-tab{
+    overflow-x: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.dinner-tab{
+    overflow-x: auto;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.table-mealsbox{
+    border-spacing: 0;
+    width: 100%;
+    border: 0px solid #FF0000;
+}
+.th-meals{
+    text-align: left;
+    padding: 8px;
+    color: black;
+    border: 1px solid #FF0000;
+}
+.tab-head{
+    background-color: #FF0000;
+    color: white;
 }

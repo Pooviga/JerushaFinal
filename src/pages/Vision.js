@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Vision.css";
 import bgvision from "./images/bg-vision.jpg"
 import Banner from "./Banner"
 
 const Vision = () => {
+    useEffect(() => {
+        window.history.scrollRestoration = 'manual'
+        window.scrollTo(0, 0)
+      }, [])
     const myStylevision={
         backgroundImage: `url(${bgvision})`,
         

@@ -1,19 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./About.css"
 import Banner from "./Banner"
 import foodimg from './images/food.jfif';
-import bgcontact from './images/bg-contact.jpg'
+import bgcontact from './images/about-bg.jpg'
 
 const CateringService = () => {
+    useEffect(() => {
+        window.history.scrollRestoration = 'manual'
+        window.scrollTo(0, 0)
+      }, [])
     const aboutStyle={
         backgroundImage: 
  `url(${foodimg})`,
-        height:'50vh',
-        width:'100%',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundAttachment:'fixed',
-    
     };
     const myStyleabout={
         backgroundImage: `url(${bgcontact})`,
@@ -21,7 +19,7 @@ const CateringService = () => {
     }; 
     return (
         <div>
-            <div className="box-search-contact" style={myStyleabout}></div>
+            <div className="box-search-about" style={myStyleabout}></div>
             <div className="max-w-content w-full mx-auto">
                 <div className="caption-contact ">
                     <p className="home-title">JERUSHA HOME FOODS</p>

@@ -1,19 +1,40 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Box.css"
 import Banner from "./Banner"
 
-import spices from "./images/spices.jpg";
+import spices from "./images/break.jpg";
 import art from "./images/art.jpg";
 import logo from "./images/mealbox_logo.jpg";
 import chart from "./images/din.gif";
 import menuchart from "./images/menucard.jpeg";
 import vege from "./images/vege.jpg";
 import mealbox from "./images/mealbox.jpg";
+import bgvision from "./images/bg-break.jpeg"
+import Helmet from "react-helmet";
 
 const BreakBox = () => {    
+    useEffect(() => {
+        window.history.scrollRestoration = 'manual'
+        window.scrollTo(0, 0)
+      }, [])
+      const myStylevideo={
+        backgroundImage: `url(${bgvision})`,
+        
+    }; 
     return (
         <div >
-            <Banner />
+            <Helmet>
+                <title>Break Box</title>
+            </Helmet>
+            <div className="box-search-vision" style={myStylevideo}>
+            </div>
+            <div class="max-w-content w-full mx-auto">
+                <div class="caption-vision">
+                    <p className="home-title">JERUSHA HOME FOODS</p>
+                    <p className="home-contact">OUR VISION - TO PRODUCE HIGH QUALITY FOOD</p>
+                    <hr className="hrbanner"></hr>
+                </div>
+            </div>
             <div className="boxsplit max-w-content w-full mx-auto">
                 <div className="boxsplit-left">
                     <p className="top">Traditional South Indian Breakfast</p>
@@ -32,8 +53,8 @@ const BreakBox = () => {
                     </p>
 
                     <p className="t2">Are Your Seeking Tasty Homemade Food for Breakfast</p>
-                    <hr className="hrmeals"></hr>
-                    <img className="img2" src= {art}></img>
+                    <hr className="hrmeals-break"></hr>
+                    {/* <img className="img2" src= {art}></img> */}
                     <p className="parah2"> <b className="bold">Atchayapathra Foods</b> cater to a homemade  <b className="bold">breakfast subscription 
                     pack</b> called  <b className="bold">“Break Box“.</b> The main aim of this service is people looking for healthy breakfast
                     for a day as per your requirements. That’s why we deliver a healthy and tasty breakfast
@@ -47,9 +68,9 @@ const BreakBox = () => {
                      on the experience of indulging in South-Indian cuisine.</p>
                    
                     <p className="t2">We Feed Nutritious Food With Strict Safety</p>
-                    <hr className="hrmeals"></hr>
+                    <hr className="hrmeals-break"></hr>
 
-                    <img className="vege" src= {vege}></img>
+                    {/* <img className="vege" src= {vege}></img> */}
 
                     <p className="parah2">We, at Atchayapathra Foods, provide<b className="bold">packaged food with supreme hygiene.</b>  
                     Our Packaging preserves food quality and its tastes which tend to attract customers.
@@ -70,16 +91,59 @@ const BreakBox = () => {
 
                 </div>
                 <div className="boxsplit-right">
-                    <p className="top_r">DINNERBOX SUBSCRIPTION PLANS</p>
-                    <img className="logo" src= {logo}></img>
+                    {/* <p className="top_r">DINNERBOX SUBSCRIPTION PLANS</p>
+                    <img className="logo" src= {logo}></img> */}
 
-                    <img className="chart" src= {chart}></img>
+                    {/* <img className="chart" src= {chart}></img> */}
 
                     <p className="menu-box-alt">MENU CHART</p>
-                    <img className="menuchart" src= {menuchart}></img>
+                    <div className="dinner-tab">
+                        <table className="table-mealsbox">
+                            <tr>
+                            <th className="th-meals tab-head" colSpan="2">DISHES</th>
+                            </tr>
+                            <tr>
+                            <th className="th-meals">Dish</th>
+                            <th className="th-meals">Prize</th>
+                            </tr>
+                            <tr>
+                                <td className="th-meals">Idly (3 Idlies)</td>
+                                <td className="th-meals">&#8377; 30.00</td>
+                            </tr>
+                            <tr>
+                                <td className="th-meals">Dosa</td>
+                                <td className="th-meals">&#8377; 25.00</td>
+                            </tr>
+                            <tr>
+                                <td className="th-meals">Poori ( 3 Piece)</td>
+                                <td className="th-meals">&#8377; 50.00</td>
+                            </tr>
+                            <tr>
+                                <td className="th-meals">Pongal</td>
+                                <td className="th-meals">&#8377; 50.00</td>
+                            </tr>
+                            <tr>
+                                <td className="th-meals">Kichidi</td>
+                                <td className="th-meals">&#8377; 50.00</td>
+                            </tr>
+                            <tr>
+                                <td className="th-meals">Onion Uthappam</td>
+                                <td className="th-meals">&#8377; 40.00</td>
+                            </tr>
+                            <tr>
+                                <td className="th-meals">Chapathi</td>
+                                <td className="th-meals">&#8377; 20.00</td>
+                            </tr>
+                            <tr>
+                                <td className="th-meals">Vegetable Upma</td>
+                                <td className="th-meals">&#8377; 50.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                    {/* <img className="menuchart" src= {menuchart}></img> */}
 
                 </div>
-                <div>
+                {/* <div>
                     <p className="top">Get Your Special Plans</p>
                     <p className="f_t">DinnerBox Subscription Plans</p>
                     <hr className="hrmeals"></hr>
@@ -91,7 +155,7 @@ const BreakBox = () => {
                 </div>
                 <div className="boxsplit-right">
                     <img className="meals" src={mealbox}></img>
-                </div>
+                </div> */}
                 
             </div>
         </div>

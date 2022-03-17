@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./NutritionFoodDelivery.css"
 import bgnfd from './images/bg-nfd.jpg';
 import nutrition1 from "./images/nutrition3.jpg"
 import Banner from "./Banner"
 
 const NutritionFoodDelivery = () => {
+    useEffect(() => {
+        window.history.scrollRestoration = 'manual'
+        window.scrollTo(0, 0)
+      }, [])
     const myStylenfd={
         backgroundImage: `url(${bgnfd})`,
         

@@ -31,10 +31,10 @@ const Footer = () => {
                     <div className="flexing-apps">
                         <div className="flex-cont-foot">
                             <div className="zomato-cont">
-                                    <a href="fg" className=""><img className="zomato-foot" src={zomato}></img></a>
+                                    <a href="https://zoma.to/order/19620369" target="_blank"><img className="zomato-foot" src={zomato}></img></a>
                             </div>
                             <div className="swiggy-cont">
-                                    <a href="" >
+                                    <a href="https://www.swiggy.com/amp-menu/restaurants/jerusha-home-foods-arcot-ranipet-vellore-482315" target="_blank">
                                         <img className="swiggy-foot" src={swiggy}></img>
                                     </a>
                             </div>

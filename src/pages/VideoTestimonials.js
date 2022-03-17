@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Vision.css";
 import Banner from "./Banner"
 import Footer from "../components/Layout/Footer/Footer"
@@ -10,6 +10,10 @@ import logo from './images/gold.png';
 
 
 const VideoTestimonials = () => {
+    useEffect(() => {
+        window.history.scrollRestoration = 'manual'
+        window.scrollTo(0, 0)
+      }, [])
     const myStylevideo={
         backgroundImage: `url(${bgvision})`,
         

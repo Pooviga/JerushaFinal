@@ -1,3 +1,19 @@
+.box-search-about{
+    height: 87vh;
+    filter:brightness(20%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+@media only screen and (max-width: 768px) {
+    .box-search-about{
+        height: 40vh;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        filter: brightness(30%);
+    }
+}
 .aboutsplit{
     display: flex;
     flex-wrap: wrap;

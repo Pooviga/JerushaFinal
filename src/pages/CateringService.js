@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./CateringService.css"
 import Banner from "./Banner"
 import foodimg from './images/food.jfif';
@@ -6,7 +6,12 @@ import wedcatering from './images/wed-catering.jpg'
 import bgcatering from './images/bg-catering.jpg'
 
 const CateringService = () => {
-    const catStyle={
+    useEffect(() => {
+        window.history.scrollRestoration = 'manual'
+        window.scrollTo(0, 0)
+      }, [])
+    
+      const catStyle={
         backgroundImage: 
  `url(${foodimg})`,
     };
@@ -19,7 +24,7 @@ const CateringService = () => {
              <div className="box-search-catering" style={myStylecatering}></div>
             <div className="max-w-content w-full mx-auto">
                 <div className="caption-contact ">
-                    <p className="home-title">JERUSHA HOME FOODS</p>
+                    <p className="home-title">JERUSHA CATERING SERVICE</p>
                     <p className="home-contact">CATERING SERVICE - DELECTABLE AND APPEALING DISHES</p>
                     <hr className="hrbanner"></hr>
                 </div>
@@ -27,7 +32,7 @@ const CateringService = () => {
             <div className="catsplit w-full mx-auto max-w-content">
                 <div className="catsplit-left">
                     <div className="cat-div-one">
-                        <p className="catering-caption">JERUSHA HOME FOODS</p>
+                        <p className="catering-caption">JERUSHA CATERING SERVICE</p>
                         <p className="catering-head">Wedding Catering Service</p>
                         <hr className="hr-catering"></hr>
                         <p className="catering-para-one"><b>Wedding Catering:</b> Every occasion is special, however when it comes to weddings, there are many different types of events such as engagements, Mehandis, and so on. Jerusha  catering services ensure that you enjoy your wedding day with zeal, remembering our taste in every bud of joyous movement. We can assist you in making your wedding function more elegant and full of celebration bashes than ever before. For all wedding celebrations, we organise <b className="cat-bold">delectable and appealing dishes.</b> Though we will present with full-heart that reminds Jerusha catering recipes at every taste bud, we will primarily focus on making your special occasion as lifetime memories by providing delicious homemade food and the way, we will present with full-heart that reminds Jerusha catering recipes at every taste bud.</p>
@@ -44,9 +49,11 @@ const CateringService = () => {
                     </div>
             </div>
             {/* <div style={catStyle} className="w-full mx-auto max-w-content"></div> */}
+            <hr className="hrcat mx-auto max-w-content"></hr>
             <div className="catsplit-two w-full mx-auto max-w-content">
                 <div className="catsplit-left-two">
                     <div class="containernutrition-two">
+                        
                                 <img src={wedcatering} alt="Snow" className="vegetables-two"></img>
                                 <div class="bottom-left-nut-two">
                                     <p className="img-nut-cap-two">Jerusha Catering Service</p>

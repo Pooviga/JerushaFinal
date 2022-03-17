@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Contact.css"
 import Banner from "./Banner"
 import Chef from './images/ci.png';
 import bgcontact from './images/bg-contact.jpg'
 // import { MDBIcon, MDBContainer, MDBBtn } from 'mdbreact';
 
-const Contact = () => {  
+const Contact = () => { 
+    useEffect(() => {
+        window.history.scrollRestoration = 'manual'
+        window.scrollTo(0, 0)
+      }, []) 
     const myStylecontact={
         backgroundImage: `url(${bgcontact})`,
         

@@ -4,6 +4,7 @@ import foodimg from './images/food.jfif';
 
 
 const Banner = () => {
+    
     const myStyle={
         backgroundImage: `url(${foodimg})`,
     };

@@ -3,12 +3,33 @@ import {  STitle } from "./styles";
 import Banner from "../../pages/Banner";
 import { Helmet } from "react-helmet";
 import "./HomePage.css"
-import chapathi from "./images/chapathi.png"
-import idly from "./images/idly.png"
-import dosa from "./images/dosa.png"
+import chapathi from "./images/chapathi.jfif"
+import idly from "./images/idli.jfif"
+import dosa from "./images/dosa.jpg"
 import poori from "./images/poori.png"
-import pongal from "./images/pongal.png"
-import onion from "./images/onion.png"
+import pongal from "./images/pongal.jpg"
+import onion from "./images/onion.jpg"
+import meals from "./images/meals.jpg"
+import plainbriyani from "./images/plain-briyani.png"
+import tomato from "./images/tomato-rice.png"
+import lime from "./images/lime-rice.jpg"
+import tamarind from "./images/tamarind-rice.jpg"
+import curd from "./images/curd-rice.jfif"
+import vegbriyani from "./images/veg-briyani.jpg"
+import ghee from "./images/ghee-rice.jpg"
+import kichidi from "./images/kichadi.png"
+import chickenbriyani from "./images/chicken-briyani.jpg"
+import muttonbriyani from "./images/mutton-briyani.png"
+import prawnbriyani from "./images/prawn-briyani.png"
+import eggbriyani from "./images/eggbriyani.png"
+import chickengravy from "./images/chicken-gravy.jpg"
+import prawngravy from "./images/prawngravy.jpg"
+import crabgravy from "./images/crabgravy.jpg"
+import egggravy from "./images/egggravy.jpg"
+import fishcurry from "./images/fishcurry1.png"
+import fishfry from "./images/fishfry1.png"
+import chicken65 from "./images/chicken65-1.png"
+import prawn65 from "./images/prawn65.jpg"
 import $ from 'jquery';
 const HomePage = () => {
     const catStyle={
@@ -38,66 +59,66 @@ const HomePage = () => {
                 <div class="card-carousel w-full mx-auto max-w-content">
                 
                     <div class="my-card">
-                    <img src={pongal} className="menu-img"></img>
-                        <p className="menu-caption">PONGAL</p>
+                    <img src={pongal} className="menu-img-pongal"></img>
+                        <p className="menu-caption-pongal">PONGAL</p>
                     </div>
                     <div class="my-card">
-                        <img src={poori} className="menu-img"></img>
-                        <p className="menu-caption">POORI</p>
+                        <img src={poori} className="menu-img-poori"></img>
+                        <p className="menu-caption-poori">POORI</p>
                     </div>
                     <div class="my-card">
-                        <img src={dosa} className="menu-img"></img>
-                        <p className="menu-caption">DOSA</p>
+                        <img src={dosa} className="menu-img-dosa"></img>
+                        <p className="menu-caption-dosa">DOSA</p>
                     </div>
                     <div class="my-card">
-                        <img src={idly} className="menu-img"></img>
-                        <p className="menu-caption">IDLY</p>
+                        <img src={idly} className="menu-img-idly"></img>
+                        <p className="menu-caption-idly">IDLY</p>
                     </div>
                     <div class="my-card">
-                        <img src={chapathi} className="menu-img"></img>
-                        <p className="menu-caption">CHAPATHI</p>
+                        <img src={chapathi} className="menu-img-chapathi"></img>
+                        <p className="menu-caption-chapathi">CHAPATHI</p>
                     </div>
                     <div class="my-card">
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">ONION UTHAPPAM</p>
+                        <img src={onion} className="menu-img-onion"></img>
+                        <p className="menu-caption-onion">ONION UTHAPPAM</p>
                     </div>
                     <div class="my-card">
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">KICHIDI</p>
+                        <img src={kichidi} className="menu-img-kichidi"></img>
+                        <p className="menu-caption-kichidi">KICHIDI</p>
                     </div>
                     <div class="my-card">
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">VEG MEALS</p>
+                        <img src={meals} className="menu-img-meals"></img>
+                        <p className="menu-caption-meals">VEG MEALS</p>
                     </div>
                     <div class="my-card">
-                        <img src={onion} className="menu-img"></img>
+                        <img src={plainbriyani} className="menu-img"></img>
                         <p className="menu-caption">PLAIN BRIYANI</p>
                     </div>
                     <div class="my-card">
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">TOMATO RICE</p>
+                        <img src={tomato} className="menu-img-tomatorice"></img>
+                        <p className="menu-caption-tomatorice">TOMATO RICE</p>
                     </div>
                     <div class="my-card">
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">LIME RICE</p>
+                        <img src={lime} className="menu-img-limerice"></img>
+                        <p className="menu-caption-limerice">LIME RICE</p>
                     </div>
                     <div class="my-card">
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">TAMARIND RICE</p>
+                        <img src={tamarind} className="menu-img-tamarind"></img>
+                        <p className="menu-caption-tamarind">TAMARIND RICE</p>
                     </div>
                     <div class="my-card">
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">CURD RICE</p>
+                        <img src={curd} className="menu-img-curdrice"></img>
+                        <p className="menu-caption-curdrice">CURD RICE</p>
                     </div>
                     <div class="my-card">
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">VEG BRIYANI</p>
+                        <img src={vegbriyani} className="menu-img-vegbriyani"></img>
+                        <p className="menu-caption-vegbriyani">VEG BRIYANI</p>
                     </div>
                     <div class="my-card">
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">GHEE RICE</p>
+                        <img src={ghee} className="menu-img-gheerice"></img>
+                        <p className="menu-caption-gheerice">GHEE RICE</p>
                     </div>
-
+    
                         ...
                 </div>
             
@@ -111,56 +132,56 @@ const HomePage = () => {
                 <div className="card-carouselnv" >
             
                     <div class="my-cardnv">  
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">CHICKEN BRIYANI</p>
+                        <img src={chickenbriyani} className="menu-img-chickenbriyani"></img>
+                        <p className="menu-caption-chickenbriyani">CHICKEN BRIYANI</p>
                     </div>
                     <div class="my-cardnv">
-                    <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">MUTTON BRIYANI</p>
+                    <img src={muttonbriyani} className="menu-img-muttonbriyani"></img>
+                        <p className="menu-caption-muttonbriyani">MUTTON BRIYANI</p>
                     </div>
                     <div class="my-cardnv">
-                    <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">PRAWN BRIYANI</p>
+                    <img src={prawnbriyani} className="menu-img-prawnbriyani"></img>
+                        <p className="menu-caption-prawnbriyani">PRAWN BRIYANI</p>
                     </div>
                     <div class="my-cardnv">
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">EGG BRIYANI</p>
+                        <img src={eggbriyani} className="menu-img-eggbriyani"></img>
+                        <p className="menu-caption-eggbriyani">EGG BRIYANI</p>
                     </div>
                     <div class="my-cardnv">
                     <img src={onion} className="menu-img"></img>
                         <p className="menu-caption">PLAIN BRIYANI</p>
                     </div>
                     <div class="my-cardnv">
-                    <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">CHICKEN GRAVY</p>
+                    <img src={chickengravy} className="menu-img-chickengravy"></img>
+                        <p className="menu-caption-chickengravy">CHICKEN GRAVY</p>
                     </div>
                     <div class="my-cardnv">
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">PRAWN GRAVY</p>
+                        <img src={prawngravy} className="menu-img-prawngravy"></img>
+                        <p className="menu-caption-prawngravy">PRAWN GRAVY</p>
                     </div>
                     <div class="my-cardnv">
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">CARB GRAVY</p>
+                        <img src={crabgravy} className="menu-img-crabgravy"></img>
+                        <p className="menu-caption-crabgravy">CRAB GRAVY</p>
                     </div>
                     <div class="my-cardnv">
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">EGG GRAVY</p>
+                        <img src={egggravy} className="menu-img-egggravy"></img>
+                        <p className="menu-caption-egggravy">EGG GRAVY</p>
                     </div>
                     <div class="my-cardnv">
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">FISH KARIKOLAMBU</p>
+                        <img src={fishcurry} className="menu-img-fishcurry"></img>
+                        <p className="menu-caption-fishcurry">FISH KARIKOLAMBU</p>
                     </div>
                     <div class="my-cardnv">
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">FISH FRY</p>
+                        <img src={fishfry} className="menu-img-fishfry"></img>
+                        <p className="menu-caption-fishfry">FISH FRY</p>
                     </div>
                     <div class="my-cardnv">
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">CHICKEN 65</p>
+                        <img src={chicken65} className="menu-img-chicken65"></img>
+                        <p className="menu-caption-chicken65">CHICKEN 65</p>
                     </div>
                     <div class="my-cardnv">
-                        <img src={onion} className="menu-img"></img>
-                        <p className="menu-caption">PRAWN 65</p>
+                        <img src={prawn65} className="menu-img-prawn65"></img>
+                        <p className="menu-caption-prawn65">PRAWN 65</p>
                     </div>
                 </div>
             
