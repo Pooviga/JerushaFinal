@@ -10,6 +10,7 @@ import menuchart from "./images/menucard.jpeg";
 import vege from "./images/vege.jpg";
 import mealbox from "./images/mealbox.jpg";
 import bgvision from "./images/bg-dinner.jpg"
+import dinner from "./images/dining.jpg"
 
 const DinnerBox = () => { 
     // useEffect(() => {
@@ -27,7 +28,7 @@ const DinnerBox = () => {
             <div class="max-w-content w-full mx-auto">
                 <div class="caption-vision">
                     <p className="home-title">JERUSHA HOME FOODS</p>
-                    <p className="home-contact">OUR VISION - TO PRODUCE HIGH QUALITY FOOD</p>
+                    <p className="home-contact">SUBSCRIPTION SERVICE FOR DINNERBOX</p>
                     <hr className="hrbanner"></hr>
                 </div>
             </div>
@@ -39,27 +40,14 @@ const DinnerBox = () => {
                     <p className="s_t">Why Dinner Is Important?</p>
                     <hr className="hrmeals"></hr>
                     <img className="img1" src= {spices}></img>
-                    <p className="parah2">We all want our families to be healthy and contented, but we may be ignoring the most important spot in the day. 
-                        Regular family dinners may be the most powerful way to help kids stay healthy and happy, according to Harvard
-                         Health mental and physical health specialists.Having a <i>healthy vegetarian dinner</i> is quite satisfying 
-                         after a long, hard day. Most people would agree that going to bed on an empty stomach is not enjoyable, nor is 
-                         waking up with an unbalanced body. When families dine together, they tend to eat more vegetables and fruits — and 
-                         fewer fried foods, soda, and foods with trans fats, research shows. When younger frequently eat dinner with their families,
-                          they are less likely to be overweight than others.
+                    <p className="parah2">
+                          We all want our families to be happy and healthy, but it's possible that we're overlooking the most crucial part of the day. According to Harvard Health mental and physical health specialists, regular family dinners may be the most effective approach to help youngsters stay healthy and happy. After a long and exhausting day, a nutritious vegetarian meal is surprisingly fulfilling. Going to bed on an empty stomach, or getting up with an unbalanced physique, is not pleasant for most individuals. According to study, when families eat together, they eat more vegetables and fruits and less fried meals, soda, and trans fat items. When children eat dinner with their families frequently, they are less likely to be overweight than other children.
                     </p>
                     {/* <img className="img2" src= {art}></img> */}
-                    <p className="parah2">It is no mystery that what people eat has an effect on their daily physical and mental health. When people keep themselves
-                         well-nourished, they can participate more fully and effectively in a wide variety of activities.</p>
+                    {/* <p className="parah2">It is no mystery that what people eat has an effect on their daily physical and mental health. When people keep themselves
+                         well-nourished, they can participate more fully and effectively in a wide variety of activities.</p> */}
 
-                    <p className="t2">Dinner Delivery Service Madurai</p>
-
-                    <p className="parah2">Dinner is an important meal of the day we provide food door delivery without any delay. Food is what gives you energy.
-                     Dinner Food raises your blood sugar level in the middle of the day, making you able to focus for the rest of the night. It has been proven that
-                    people who don’t eat dinner tend to gain more weight because they overeat during lunch time to compensate for dinner.</p>
-                   
-                    <p className="parah3-dinner">Our DinnerBox Subscription menu encompasses a complete, wholesome, nourishing and yummy South Indian traditional foods such as Idly, Dosai, Vadai,
-                    Paniyaram, Appam, Uthappam, Upma, Puttu, Kozhukattai, Sevai, Idiyappam etc.</p>
-
+                    
                     {/* <img className="vege" src= {vege}></img> */}
 
                 </div>
@@ -103,7 +91,14 @@ const DinnerBox = () => {
                         </table>
                     </div>
                     {/* <img className="menuchart" src= {menuchart}></img> */}
+                    <p className="t2">Ranipet Dinner Delivery Service</p>
 
+                    <p className="parah2">As dinner is such an essential meal of the day, we provide prompt food delivery to your door. Food is the source of your energy. Dinner food raises your blood sugar levels in the middle of the day, allowing you to concentrate for the remainder of the evening. It has been demonstrated that persons who skip dinner develop more weight as a result of overeating at lunch to compensate missed dinner.</p>
+                   
+                    <p className="parah3-dinner">Our DinnerBox Subscription menu encompasses a complete, wholesome, nourishing and yummy South Indian traditional foods such as Idly, Dosai, Vadai,
+                    Paniyaram, Appam, Uthappam, Upma, Puttu, Kozhukattai, Sevai, Idiyappam etc.</p>
+                    
+                    <img className="img9" src= {dinner}></img>
                 </div>
                 {/* <div>
                     <p className="top">Get Your Special Plans</p>

@@ -12,7 +12,7 @@
     flex: 40%;
     /* background-color: aqua; */
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .catsplit-right {
       flex: 100%;
       margin-left: 5%;
@@ -21,7 +21,7 @@
     .catsplit-left {
         flex: 100%;
         margin-left: 5%;
-      margin-right: 5%;
+        margin-right: 5%;
     }
 }
 .cat-div-one{
@@ -75,7 +75,7 @@
     /* background-color: aqua; */
     padding-left: 5%;
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .catsplit-right-two {
       flex: 100%;
       margin-left: 5%;
@@ -106,7 +106,7 @@
     margin-top: 5%;
     margin-left: 0%;
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:1000px) {
     .containernutrition-two{
         margin-left: 0%;
     }
@@ -152,7 +152,7 @@
     background-repeat: no-repeat;
     background-attachment:fixed;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .box-search-catering{
         height: 40vh;
         background-size: 100% 100%;

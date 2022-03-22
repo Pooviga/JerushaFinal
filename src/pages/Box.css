@@ -11,7 +11,7 @@
 .boxsplit-right{
     flex: 45%;
 }
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .boxsplit-right {
       flex: 100%;
       margin-left: 3%;
@@ -46,7 +46,7 @@
     padding-right: 10px;
     /* margin-left: 20px; */
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .top{
         width: 100%;
     }
@@ -72,7 +72,7 @@
     font-weight: bolder;
     margin-top: 4%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .s_t{
         font-size: 42px;
     }
@@ -99,7 +99,20 @@
     margin-top: -50px;
     
 }
-
+.img9{
+    height: 250px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.img8{
+    height: 350px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
 
 .parah2{
     color: black;
@@ -168,7 +181,7 @@
     text-align: center;
     letter-spacing: 2px;
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1200px){
     .menu-box-alt{
         margin-top: 0px;
     }
@@ -205,7 +218,8 @@
 
 
 .t2{
-    margin-top: 15px;
+    /* margin-top: 100px; */
+    margin-top: 45px;
     font-size: 25px;
     font-weight: bold;
     color: black;

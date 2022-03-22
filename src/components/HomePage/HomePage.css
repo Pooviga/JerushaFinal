@@ -3,7 +3,7 @@
   background-color: blue;
 }*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   .menu-cont{
     
     width: 90%;
@@ -36,7 +36,7 @@
     border-left:5px solid #FF0000 ;
     transition: 1s;
   }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width:1000px) {
     .card-carousel .my-card {
       min-width: 200px;
       overflow: hidden;
@@ -174,7 +174,7 @@
     margin-bottom: 5%;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1000px) {
     .card-carouselnv {
         
     }
@@ -195,7 +195,7 @@
     transition: 1s;
   }
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1000px) {
     .card-carouselnv .my-cardnv {
       min-width: 200px;
       

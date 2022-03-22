@@ -27,7 +27,7 @@ const MealsBox = () => {
             <div class="max-w-content w-full mx-auto">
                 <div class="caption-vision">
                     <p className="home-title">JERUSHA HOME FOODS</p>
-                    <p className="home-contact">OUR VISION - TO PRODUCE HIGH QUALITY FOOD</p>
+                    <p className="home-contact">RANIPET'S #1 BEST MEALBOX SERVICES</p>
                     <hr className="hrbanner"></hr>
                 </div>
             </div>
@@ -39,7 +39,7 @@ const MealsBox = () => {
                     <p className="s_t">Who Has The Time To Prepare Such A Meal?</p>
                     <hr className="hrmeals"></hr>
                     <img className="img1" src= {spices}></img>
-                    <p className="parah2">Food Delivery on a Monthly Basis lunch that is good for you Box was created with your needs in mind. We recognise you. We understand that you work 12-hour shifts and need home-cooked meals for breakfast, lunch, and dinner. Your demanding work schedule, deadlines, conference calls, and numerous business meetings are all familiar to us. To put it another way, you'll need superhuman power to go through it all. When you think of strength, you probably think of food. That's right, you can get a healthy food subscription
+                    <p className="parah2">On a monthly basis, food is delivered. Lunch that is excellent for you on a regular basis Box was designed with your requirements in mind. We've seen you before. We recognise that you work 12-hour shifts and require home-cooked breakfast, lunch, and dinner. We're familiar with your hectic work schedule, deadlines, conference calls, and countless business meetings. To put it another way, to get through it all, you'll need superhuman strength. When you think of strength, the first thing that comes to mind is undoubtedly food. Yes, you may order a healthy food subscription.
                     </p>
                     {/* <img className="img2" src= {art}></img>             */}
 
@@ -48,9 +48,6 @@ const MealsBox = () => {
                      definitely not a healthy option.  This is where we come in. We offer healthy home food delivery service and
                       wholesome food that can satiate your hunger and also take care of your nutrient requirements all at once. 
                       Sounds amazing isn’t it? We present you, Subscription Meals Box!</p> */}
-
-                    <p className="t2">Monthly Food Delivery in Ranipet</p>
-                    <p className="parah2">Our Lunch Delivery Box got you covered. This box features Traditional South Indian Lunch. Corporate employees can choose from 250+ variety of rice. This healthy, wholesome box comes in an attractive Lunch Box that’s also appealing to your eyes. Atchayapathra Foods Catering Service provide vegetarian meals subscription delivery service to your home and office.</p>
 
                     {/* <img className="vege" src= {vege}></img> */}
 
@@ -101,6 +98,8 @@ const MealsBox = () => {
                             </tr>                            
                         </table>
                     </div>
+                    <p className="t2">Monthly Food Delivery in Ranipet</p>
+                    <p className="parah2">We've got you covered with our Lunch Delivery Box. Traditional South Indian Lunch is featured in this box. Employees can choose from more than 250 varieties of rice. This nutritious lunch box is presented in a beautiful Lunch Box that is equally pleasing to the eye. Jerusha Foods Catering Service delivers vegetarian meals to your house or business on a regular basis.</p>
                 </div>
                 {/* <div>
                     <p className="top">Get Your Special Plans</p>

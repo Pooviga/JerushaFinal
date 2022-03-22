@@ -12,7 +12,7 @@
   }
 
   
-  @media (max-width: 800px) {
+  @media (max-width: 1200px) {
      .flex-item-left_ {
       flex: 100%;
     }
@@ -38,7 +38,7 @@
     font-style: bold;
     font-weight: bolder;
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1200px){
     .phn{
         font-size: 21px;
     }
@@ -78,7 +78,7 @@
     font-size: 14px;
     font-weight: 900;
 }
-@media only screen and(max-width:900px){
+@media only screen and(max-width:1200px){
     .parah{
         font-size: 13px;
         max-width: 90%;
@@ -107,7 +107,7 @@
     flex:50%;
     padding-bottom: 5%;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
     .flex-div-left{
         margin-left: 5%;
         margin-right: 5%;
@@ -117,7 +117,7 @@
     flex:50%;
     overflow: hidden;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .flex-div-left,.flex-div-right{
        flex:100%;
     }
@@ -131,7 +131,7 @@
 .maps{
     display: none;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .maps{
         display: block;
     }
@@ -140,7 +140,7 @@
     display: block;
     margin-top: 15%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .mapfull{
         display: none;
     }
@@ -149,7 +149,7 @@
     margin-top: 7%;
     width: 90%;
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1200px){
     .flexing-apps{
         margin-left: 0%;
         width: 100%;
@@ -161,7 +161,7 @@
 .zomato-cont{
     width:15%;
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1200px){
     .zomato-cont{
         width: 48%;
     }
@@ -171,7 +171,7 @@
     /* margin-top: 1%; */
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1200px){
     .swiggy-cont{
         width: 50%;
     }
@@ -184,7 +184,12 @@
 }
 @media only screen and (max-width:768px){
     .zomato-foot{
-        width: 45%;
+        width: 70%;
+    }
+}
+@media only screen and (max-width:1200px){
+    .zomato-foot{
+        width: 30%;
         float: right;
         margin-right: 5%;
     }
@@ -195,9 +200,15 @@
     border-radius: 4px;
     margin-left: 5%;
 }
-@media only screen and (max-width:768px){
+
+@media only screen and (max-width:1200px){
     .swiggy-foot{
         width: 44%;
+    }
+}
+@media only screen and (max-width:1200px){
+    .swiggy-foot{
+        width: 30%;
         margin-left: 0%;
     }
 }
@@ -212,7 +223,7 @@
     color: grey;
 
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1200px){
     .order-p{
         max-width: 90%;
         font-size: 20px;

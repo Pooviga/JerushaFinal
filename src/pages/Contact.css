@@ -4,7 +4,7 @@
     margin-top: 5%;
     margin-bottom: 5%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     .TghGHD{
         margin-left:0%;
     }
@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     background-attachment:fixed;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .box-search-contact{
         height: 40vh;
         background-size: 100% 100%;
@@ -43,7 +43,7 @@
   }
   
   /* Responsive layout - makes a one column-layout instead of a two-column layout */
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     .flex-item-right {
       flex: 100%;
     }
@@ -71,7 +71,7 @@
     font-weight: 1300;
     color:black;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     .UtrwER{
         font-size: 33px;
     }
@@ -90,7 +90,7 @@
     word-spacing: 3px;
     max-width: 95%;
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1000px){
     .UIhfGJ{
         max-width: 100%;
     }
@@ -138,7 +138,7 @@
     box-shadow: 1.5px 1.5px #DB6F6F;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1000px) {
     .HTEnfG{
         width: 90%;
     }
@@ -158,7 +158,7 @@
     padding-right: 15%;
     margin-bottom: 30px;
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 1000px) {
     .address{
         font-size: 12px;
     }
@@ -218,7 +218,7 @@
     text-decoration: none;
     color: black;
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 1000px) {
     .UYJGbf,.UYTnbf{
         font-size: 12px;
     }
@@ -251,7 +251,7 @@
     margin-bottom: -2px;
     margin-right: 15px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     .JHGhgUT{
         margin-bottom: -2px;
         margin-right: 5px;
@@ -263,7 +263,7 @@
     top:55%;
     font-weight: bold;
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1200px){
     .caption-contact{
         margin-left: 5%;
         top:26%;

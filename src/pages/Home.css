@@ -25,7 +25,7 @@
     margin-right: 5%;
     text-align: center;
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:1000px) {
     .f{
         margin-top: 8%;
         font-size: 35px;
@@ -92,7 +92,7 @@
     line-height: 2;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .a1 {
         flex: 100%;
         margin-left: 3%;
@@ -131,6 +131,7 @@
     position: relative;
     color: white;
     width:100%;
+    overflow: hidden;
     margin-top: 60px;
     margin-bottom: 40px;
   }
@@ -151,7 +152,7 @@
 .poster-top-mob{
     display: none;
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1000px){
     .poster{
         display: none;
     }
@@ -188,7 +189,7 @@
     justify-content: space-around;
     box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .container-home{
         margin-left: 0%;
     }
@@ -325,7 +326,7 @@ slider */
     /* box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   }
   
-  @media only screen and (max-width:768px){
+  @media only screen and (max-width:1000px){
     .right{
        min-width:90%;
     }
@@ -375,7 +376,7 @@ slider */
     justify-content: center;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1000px){
     .navigation-home{
         margin-top: -150px;
     }
@@ -434,7 +435,7 @@ slider */
     font-size: 17px;
     line-height: 2;
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:1000px) {
     .dho{
         max-width: 100%;
         margin-left: 5%;
@@ -447,7 +448,7 @@ slider */
     padding-top: 20px;
     font-weight: bold;
 }
-@media only screen and (max-width:768px)
+@media only screen and (max-width:1000px)
 {
     .menu-display-home{
         display: none;
@@ -467,7 +468,7 @@ slider */
     top:57%;
     font-weight: bold;
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1200px){
     .caption-home{
         margin-left: 5%;
         top:32%;
@@ -480,7 +481,7 @@ slider */
 .zom-cont{
     width: 4%;
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1000px){
     .zom-cont{
         width: 10%;
     }
@@ -495,7 +496,7 @@ slider */
     
     width:4%;
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1000px){
     .swigg-cont{
         width: 10.5%;
     }
@@ -511,7 +512,7 @@ slider */
     background-repeat: no-repeat;
     background-attachment:fixed;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .box-search-home{
         height: 50vh;
         background-size: 100% 100%;
@@ -527,7 +528,7 @@ slider */
     font-weight: bold;
     color: white;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     .order-home-apps{
         margin-top: -0.5%;
     }

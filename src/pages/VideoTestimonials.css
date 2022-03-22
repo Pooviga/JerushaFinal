@@ -13,7 +13,7 @@
   height:250px;
 
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1200px){
   .videos{
     margin-left: 0%;
     margin-right: 0%;
@@ -43,7 +43,7 @@
 .y, .z {
   flex: 0 0 30%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .x,.y,.z{
         flex: 100%;
         margin-left: 3%;
@@ -60,7 +60,7 @@
   cursor: pointer;
   z-index: 100;
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1200px){
   .videos{
     width: 100%;
   }
@@ -82,7 +82,7 @@ z-index:1000;
   -webkit-transform: scaleX(-1);
       transform: scaleX(-1);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .box-search-video{
       height: 43vh;
       background-size: 100% 100%;
@@ -97,7 +97,7 @@ z-index:1000;
   color: white;
   font-weight: bold;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .caption-video{
       top:17%;
       margin-left: 5%;

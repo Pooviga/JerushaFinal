@@ -112,7 +112,7 @@
     white-space: nowrap;
     min-width: 200px;
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
     .Dhgvh{
         position: absolute;
     }
@@ -130,20 +130,21 @@
 }
 /*top without scroll*/
 .HJFjf{
-     border: 1px solid grey;
-    background-color:rgb(255, 255, 255,0.8);
-    margin-left: -20px;
-    top: 100px;
-    white-space: nowrap;
-    min-width: 200px; 
+    
 
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 768px) {
     .HJFjf{
+        border: 1px solid grey;
+        background-color:rgb(255, 255, 255,0.8);
+        margin-left: -20px;
+        top: 100px;
+        white-space: nowrap;
+        min-width: 200px; 
         position: absolute;
     }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     .HJFjf{
         min-width: 80px;
         background-color:white;

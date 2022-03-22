@@ -11,6 +11,7 @@ import vege from "./images/vege.jpg";
 import mealbox from "./images/mealbox.jpg";
 import bgvision from "./images/bg-break.jpeg"
 import Helmet from "react-helmet";
+import breaks from "./images/din2.png"
 
 const BreakBox = () => {    
     useEffect(() => {
@@ -31,7 +32,7 @@ const BreakBox = () => {
             <div class="max-w-content w-full mx-auto">
                 <div class="caption-vision">
                     <p className="home-title">JERUSHA HOME FOODS</p>
-                    <p className="home-contact">OUR VISION - TO PRODUCE HIGH QUALITY FOOD</p>
+                    <p className="home-contact">WEEKLY MONTHLY SUBSCRIPTION / HOME </p>
                     <hr className="hrbanner"></hr>
                 </div>
             </div>
@@ -43,19 +44,13 @@ const BreakBox = () => {
                     <p className="s_t">No Time to Cook? Try Our Delicious Breakfast Today!</p>
                     <hr className="hrmeals"></hr>
                     <img className="img1" src= {spices}></img>
-                    <p className="parah2">In our hectic and stressful lives restricts us from 
-                    keeping a check on what we consume because of which we fail to secure an 
-                    ideal balanced diet for ourselves. Therefore, eating a  <b className="bold">nutrition-rich breakfast</b>
-                     is very important for every person. In this world, not everyone gets enough time
-                    to cook a variety of nutrition-rich dishes to eat. This seed of idea led us to 
-                    venture into getting the <b>Homemade and nutrition-based food delivery service</b> at your
-                     doorstep named  <b className="bold">“Break Box”.</b>
+                    <p className="parah2">Because of our hurried and stressful lives, we are unable to keep track of what we eat, and hence fail to achieve an ideal balanced diet for ourselves. As a result, everyone should start their day with a <b className="bold"> nutritious breakfast</b>. In today's environment, not everyone has enough time to prepare a variety of nutritious meals. This seed of an idea lead us to launch <b className="bold">"Break Box"</b> a homemade and nutrition-based food delivery service to your doorstep.
                     </p>
 
                     <p className="t2">Are Your Seeking Tasty Homemade Food for Breakfast</p>
                     <hr className="hrmeals-break"></hr>
                     {/* <img className="img2" src= {art}></img> */}
-                    <p className="parah2"> <b className="bold">Atchayapathra Foods</b> cater to a homemade  <b className="bold">breakfast subscription 
+                    <p className="parah2"> <b className="bold">Jerusha Foods</b> cater to a homemade  <b className="bold">breakfast subscription 
                     pack</b> called  <b className="bold">“Break Box“.</b> The main aim of this service is people looking for healthy breakfast
                     for a day as per your requirements. That’s why we deliver a healthy and tasty breakfast
                     that gives you the great nutrition you need to tackle even the toughest day. Our chef genuinely
@@ -67,36 +62,17 @@ const BreakBox = () => {
                      environmentally friendly and inventive packaging boxes guarantee the freshness of food without compromising 
                      on the experience of indulging in South-Indian cuisine.</p>
                    
-                    <p className="t2">We Feed Nutritious Food With Strict Safety</p>
-                    <hr className="hrmeals-break"></hr>
-
-                    {/* <img className="vege" src= {vege}></img> */}
-
-                    <p className="parah2">We, at Atchayapathra Foods, provide<b className="bold">packaged food with supreme hygiene.</b>  
-                    Our Packaging preserves food quality and its tastes which tend to attract customers.
-                    Thus, our Foods are <b className="bold">free from contamination</b> and they support the shelf life of foods. 
-                    Our Packaging Method and type helps us to differentiate us from similar products on the same.
-                    Also, we use packaging machines which <b className="bold">guarantee 100% safety</b> and hygiene.<br></br>
-
-                    Do you wish you could just keep it simple and just get the breakfast healthy delivered at your
-                    home/workplace? Worry no more because we’ve got it covered! When you need <b className="bold">healthy vegetarian breakfast
-                    in Madurai</b>, call us and let us help you have a better nutrition breakfast experience today. Our delivery
-                    team will pick up your home-cooked meal from our kitchen and deliver it right to your doorstep, on time.<br></br>
-
-                    Happier lifestyle comes along with the choices we make towards healthier living. Choosing <b className="bold">“Break Box”</b>
-                    could be one of your initial steps towards a healthier lifestyle. Our foods are prepared, keeping our 
-                    customer’s taste buds in mind.<br></br>
-
-                    <b className="bold">Kick-on Your Healthy Journey Today!</b></p>
+                   
 
                 </div>
                 <div className="boxsplit-right">
                     {/* <p className="top_r">DINNERBOX SUBSCRIPTION PLANS</p>
                     <img className="logo" src= {logo}></img> */}
-
+                    
                     {/* <img className="chart" src= {chart}></img> */}
 
                     <p className="menu-box-alt">MENU CHART</p>
+                    {/* <img className="logo" src= {logo}></img> */}
                     <div className="dinner-tab">
                         <table className="table-mealsbox">
                             <tr>
@@ -141,7 +117,31 @@ const BreakBox = () => {
                         </table>
                     </div>
                     {/* <img className="menuchart" src= {menuchart}></img> */}
+                    <p className="t2">We Feed Nutritious Food With Strict Safety</p>
+                    <hr className="hrmeals-break"></hr>
 
+                    {/* <img className="vege" src= {vege}></img> */}
+
+                    <p className="parah2">Jerusha Foods provides packaged food that is <b className="bold">clean and safe</b>.
+                                        Our packaging protects the quality of the food and its flavours, which attract customers.
+                                        As a result, our foods are free of contamination and help to extend food shelf life.
+                                        Our packaging method and style help us stand out from other similar products on the market.
+                                        We also employ packaging machines that provide complete safety and cleanliness.
+                                        <br></br><br></br>
+
+                                        Do you wish you could keep things easy and have a healthy breakfast delivered to your house or workplace?
+                                        Don't be concerned; we've got you covered! Call us today if you need a <b className="bold">healthy vegetarian breakfast in 
+                                        Ranipet,</b> and we'll assist you enjoy a better nutrition meal experience. Our delivery crew will pick
+                                        up your freshly prepared dinner from our kitchen and deliver it to your house on time.
+                                        <br></br><br></br>
+
+                                        A happier lifestyle is associated with the decisions we make to live a healthy existence. One of your first 
+                                        steps toward a better living could be selecting <b>"Break Box."</b> Our meals are designed with our customers'
+                                        preferences in mind.
+                                        <br></br><br></br>
+
+                                        <b className="bold">Start Your Healthy Journey Now!</b></p>
+                                        <img className="img8" src= {breaks}></img>
                 </div>
                 {/* <div>
                     <p className="top">Get Your Special Plans</p>

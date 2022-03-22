@@ -52,10 +52,10 @@
 }
 .shdfHF{
     padding-top: 2%;
-    font-size: 2.3em;
+    font-size: 2.3em;   
     color:rgb(40,44,53);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .shdfHF{
         font-size: 1.8em;
     }
@@ -70,7 +70,7 @@
     border:2px solid #FF0000 ;
     background-color: #FF0000;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .jhfHGk{
         width:20%;
     }
@@ -92,7 +92,7 @@
     font-size: 2.3em;
     color:rgb(40,44,53);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .ckhjkJH{
         font-size: 2em;
     }
@@ -103,7 +103,7 @@
     background-color: #FF0000;
     border:2px #FF0000 solid;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .hjLoJG{
         width:20%;
     }
@@ -133,7 +133,7 @@
   background-repeat: no-repeat;
   background-attachment:fixed;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .box-search-vision{
       height: 45vh;
       background-size: 100% 100%;
@@ -148,7 +148,7 @@
   color: white;
   font-weight: bold;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .caption-vision{
       top:18%;
       margin-left: 5%;

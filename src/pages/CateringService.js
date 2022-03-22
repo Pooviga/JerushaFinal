@@ -38,8 +38,8 @@ const CateringService = () => {
                         <p className="catering-para-one"><b>Wedding Catering:</b> Every occasion is special, however when it comes to weddings, there are many different types of events such as engagements, Mehandis, and so on. Jerusha  catering services ensure that you enjoy your wedding day with zeal, remembering our taste in every bud of joyous movement. We can assist you in making your wedding function more elegant and full of celebration bashes than ever before. For all wedding celebrations, we organise <b className="cat-bold">delectable and appealing dishes.</b> Though we will present with full-heart that reminds Jerusha catering recipes at every taste bud, we will primarily focus on making your special occasion as lifetime memories by providing delicious homemade food and the way, we will present with full-heart that reminds Jerusha catering recipes at every taste bud.</p>
                     </div>
                 </div>
-                <div className="catsplit-right ">
-                    <div class="containernutrition">
+                <div className="catsplit-right">
+                    <div class="containernutrition-two">
                             <img src={wedcatering} alt="Snow" className="vegetables"></img>
                             <div class="bottom-left-nut">
                                 <p className="img-nut-cap">Jerusha Catering Service</p>
