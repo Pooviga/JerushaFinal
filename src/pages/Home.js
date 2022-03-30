@@ -68,7 +68,7 @@ const Home = (props) => {
             <div className="max-w-content w-full mx-auto">
                 <div className="caption-home ">
                     <p className="home-title-banner">JERUSHA HOME FOODS</p>
-                    <p className="home-contact-banner">CONTACT US - WE'D LOVE TO HEAR FROM YOU</p>
+                    <p className="home-contact-banner">HOME MADE FOOD DELIVERY ACROSS RANIPET</p>
                     {/* <hr className="hrbanner"></hr> */}
                     <div className="home-apps-banner">
                         <a href="https://zoma.to/order/19620369" target="_blank" className="zom-cont"><img src={zomatohome} className="zomato-pic"></img></a>
@@ -78,7 +78,7 @@ const Home = (props) => {
                 </div>
             </div>
             <div className="first">
-                <p className="f">Homemade Food Delivery Service Coimbatore</p>
+                <p className="first-head">Homemade Food Delivery Service - Ranipet</p>
                 <p className="s"><span className="redText">WELCOME TO</span> JERUSHA FOODS</p>
             </div>
             <p className="sub_text">HOW IT WORKS</p>

@@ -23,7 +23,7 @@ const MealsBox = () => {
             <div class="max-w-content w-full mx-auto">
                 <div class="caption-vision">
                     <p className="home-title">JERUSHA HOME FOODS</p>
-                    <p className="home-contact">RANIPET'S #1 BEST MEALBOX SERVICES AT REASONABLE COST</p>
+                    <p className="home-contact">RANIPET'S #1 BEST MEALBOX SERVICES AT LOW COST</p>
                     <hr className="hrbanner"></hr>
                 </div>
             </div>
