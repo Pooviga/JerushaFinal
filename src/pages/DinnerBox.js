@@ -1,26 +1,20 @@
 import React, { useEffect } from "react";
 import "./Box.css"
-import Banner from "./Banner"
-
 import spices from "./images/spices1.jpg";
-import art from "./images/art.jpg";
-import logo from "./images/mealbox_logo.jpg";
-import chart from "./images/din.gif";
-import menuchart from "./images/menucard.jpeg";
-import vege from "./images/vege.jpg";
-import mealbox from "./images/mealbox.jpg";
 import bgvision from "./images/bg-dinner.jpg"
-import dinner from "./images/dining.jpg"
 
 const DinnerBox = () => { 
-    // useEffect(() => {
-    //     window.history.scrollRestoration = 'manual'
-    //     window.scrollTo(0, 0)
-    //   }, [])  
+    useEffect(() => {
+        window.history.scrollRestoration = 'manual'
+        window.scrollTo(0, 0)
+      }, [])  
       const myStylevideo={
         backgroundImage: `url(${bgvision})`,
         
     }; 
+    useEffect(() => {    
+        document.title = "Jerusha | DinnerBox";
+    });
     return (
         <div >
             <div className="box-search-vision" style={myStylevideo}>
@@ -40,7 +34,7 @@ const DinnerBox = () => {
                     <p className="s_t">Why Dinner Is Important?</p>
                     <hr className="hrmeals"></hr>
                     <img className="img1" src= {spices}></img>
-                    <p className="parah2">
+                    <p className="parah3">
                           We all want our families to be happy and healthy, but it's possible that we're overlooking the most crucial part of the day. According to Harvard Health mental and physical health specialists, regular family dinners may be the most effective approach to help youngsters stay healthy and happy. After a long and exhausting day, a nutritious vegetarian meal is surprisingly fulfilling. Going to bed on an empty stomach, or getting up with an unbalanced physique, is not pleasant for most individuals. According to study, when families eat together, they eat more vegetables and fruits and less fried meals, soda, and trans fat items. When children eat dinner with their families frequently, they are less likely to be overweight than other children.
                     </p>
                     {/* <img className="img2" src= {art}></img> */}
@@ -95,10 +89,10 @@ const DinnerBox = () => {
 
                     <p className="parah2">As dinner is such an essential meal of the day, we provide prompt food delivery to your door. Food is the source of your energy. Dinner food raises your blood sugar levels in the middle of the day, allowing you to concentrate for the remainder of the evening. It has been demonstrated that persons who skip dinner develop more weight as a result of overeating at lunch to compensate missed dinner.</p>
                    
-                    <p className="parah3-dinner">Our DinnerBox Subscription menu encompasses a complete, wholesome, nourishing and yummy South Indian traditional foods such as Idly, Dosai, Vadai,
-                    Paniyaram, Appam, Uthappam, Upma, Puttu, Kozhukattai, Sevai, Idiyappam etc.</p>
+                    <p className="parah2">Our DinnerBox Subscription menu encompasses a complete, wholesome, nourishing and yummy South Indian traditional foods such as Idly, Dosai,
+                     Uthappam, Idiyappam etc.</p>
                     
-                    <img className="img9" src= {dinner}></img>
+                    {/* <img className="img9" src= {dinner}></img> */}
                 </div>
                 {/* <div>
                     <p className="top">Get Your Special Plans</p>

@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "./Vision.css";
 import bgvision from "./images/bg-vision.jpg"
-import Banner from "./Banner"
 
 const Vision = () => {
     useEffect(() => {
@@ -12,6 +11,9 @@ const Vision = () => {
         backgroundImage: `url(${bgvision})`,
         
     };  
+    useEffect(() => {    
+        document.title = "Jerusha | Vision";
+    });
     return (
         <div>
             <div className="box-search-vision" style={myStylevision}>

@@ -1,25 +1,21 @@
 import React, { useEffect } from "react";
 import "./Box.css"
-import Banner from "./Banner"
-
 import spices from "./images/spices.jpg";
-import art from "./images/art.jpg";
 import logo from "./images/mealbox_logo.jpg";
-import chart from "./images/din.gif";
-import menuchart from "./images/menucard.jpeg";
-import vege from "./images/vege.jpg";
-import mealbox from "./images/mealbox.jpg";
 import bgvision from "./images/bg-meals.jpeg"
 
 const MealsBox = () => {  
-    // useEffect(() => {
-    //     window.history.scrollRestoration = 'manual'
-    //     window.scrollTo(0, 0)
-    //   }, [])  
+    useEffect(() => {
+        window.history.scrollRestoration = 'manual'
+        window.scrollTo(0, 0)
+      }, [])  
     const myStylevideo={
         backgroundImage: `url(${bgvision})`,
         
     }; 
+    useEffect(() => {    
+        document.title = "Jerusha | MealsBox";
+    });
     return (
         <div >
             <div className="box-search-vision" style={myStylevideo}>
@@ -27,7 +23,7 @@ const MealsBox = () => {
             <div class="max-w-content w-full mx-auto">
                 <div class="caption-vision">
                     <p className="home-title">JERUSHA HOME FOODS</p>
-                    <p className="home-contact">RANIPET'S #1 BEST MEALBOX SERVICES</p>
+                    <p className="home-contact">RANIPET'S #1 BEST MEALBOX SERVICES AT REASONABLE COST</p>
                     <hr className="hrbanner"></hr>
                 </div>
             </div>
@@ -39,7 +35,7 @@ const MealsBox = () => {
                     <p className="s_t">Who Has The Time To Prepare Such A Meal?</p>
                     <hr className="hrmeals"></hr>
                     <img className="img1" src= {spices}></img>
-                    <p className="parah2">On a monthly basis, food is delivered. Lunch that is excellent for you on a regular basis Box was designed with your requirements in mind. We've seen you before. We recognise that you work 12-hour shifts and require home-cooked breakfast, lunch, and dinner. We're familiar with your hectic work schedule, deadlines, conference calls, and countless business meetings. To put it another way, to get through it all, you'll need superhuman strength. When you think of strength, the first thing that comes to mind is undoubtedly food. Yes, you may order a healthy food subscription.
+                    <p className="parah3">On a monthly basis, food is delivered. Lunch that is excellent for you on a regular basis Box was designed with your requirements in mind. We've seen you before. We recognise that you work 12-hour shifts and require home-cooked breakfast, lunch, and dinner. We're familiar with your hectic work schedule, deadlines, conference calls, and countless business meetings. To put it another way, to get through it all, you'll need superhuman strength. When you think of strength, the first thing that comes to mind is undoubtedly food. Yes, you may order a healthy food subscription.
                     </p>
                     {/* <img className="img2" src= {art}></img>             */}
 

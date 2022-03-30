@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import "./NutritionFoodDelivery.css"
 import bgnfd from './images/bg-nfd.jpg';
 import nutrition1 from "./images/nutrition3.jpg"
-import Banner from "./Banner"
 
 const NutritionFoodDelivery = () => {
     useEffect(() => {
@@ -13,6 +12,9 @@ const NutritionFoodDelivery = () => {
         backgroundImage: `url(${bgnfd})`,
         
     }; 
+    useEffect(() => {    
+        document.title = "Jerusha | NutritionalFoodDelivery";
+    });
     return (
         <div className="UYYbbv">
             <div className="box-search-nfd" style={myStylenfd}>

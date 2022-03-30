@@ -20,12 +20,12 @@
 }
 
 .aboutsplit-left{
-    flex: 60%;
+    flex: 70%;
     color:white;
     padding-right: 5%;
 }
 .aboutsplit-right{
-    flex: 40%;
+    flex: 30%;
     /* background-color: aqua; */
 }
 @media (max-width: 800px) {
@@ -41,7 +41,7 @@
     }
 }
 .about-div-one{
-    margin-top: 10%;
+    margin-top: 5%;
 
 }
 .about-caption{
@@ -56,9 +56,9 @@
 }
 
 .about-head{
-    margin-top:2%;
+    margin-top:1%;
     color:black;
-    font-size: 3em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 .hr-about{
@@ -71,8 +71,8 @@
 }
 .about-para-one
 {
-    color: grey;
-    margin-top: 5%;
+    color: #505050;
+    margin-top: 2%;
     margin-bottom: 5%;
     line-height: 28px;
     word-spacing: 3px;
@@ -108,7 +108,7 @@
 }
 .about-img{
     width: 100%;
-    margin-top: 16%;
+    margin-top: 25%;
 }
 @media only screen and (max-width:768px){
     .about-img{
@@ -147,4 +147,17 @@
         margin-top: 5%;
         background-size: none;
     }
+}
+.about-top-para{
+    color:#505050;
+    margin-top: 5%;
+    line-height: 30px;
+}
+.about-bold{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+.about-tit{
+    color:#FF0000;
 }

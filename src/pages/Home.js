@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import HomePage from "../components/HomePage/HomePage";
-import Banner from "./Banner";
 import "./Home.css"
 import center_image from "./images/center_image.jpg";
 import meal_icon from "./images/meal_icon.jpeg";
@@ -22,7 +21,6 @@ import clipboard from "./images/clipboard.png"
 import bghome from './images/food.jfif'
 import zomatohome from './images/zomato.png'
 import swiggyhome from './images/swiggy.png'
-
 import dosa from './images/dosa.png'
 import poori from './images/poori.png'
 import pongal from './images/pongal.png'
@@ -51,11 +49,14 @@ import  chilli from './images/chicken 65.jpg'
 
 
 
-const Home = () => {
+const Home = (props) => {
     useEffect(() => {
         window.history.scrollRestoration = 'manual'
         window.scrollTo(0, 0)
       }, [])
+      useEffect(() => {    
+        document.title = "Jerusha | Home";
+      });
     const myStylehome={
         backgroundImage: `url(${bghome})`,
         
@@ -68,7 +69,7 @@ const Home = () => {
                 <div className="caption-home ">
                     <p className="home-title-banner">JERUSHA HOME FOODS</p>
                     <p className="home-contact-banner">CONTACT US - WE'D LOVE TO HEAR FROM YOU</p>
-                    <hr className="hrbanner"></hr>
+                    {/* <hr className="hrbanner"></hr> */}
                     <div className="home-apps-banner">
                         <a href="https://zoma.to/order/19620369" target="_blank" className="zom-cont"><img src={zomatohome} className="zomato-pic"></img></a>
                         <a href="https://www.swiggy.com/amp-menu/restaurants/jerusha-home-foods-arcot-ranipet-vellore-482315" target="_blank" className="swigg-cont"><img src={swiggyhome} className="swiggy-pic"></img></a>
@@ -386,7 +387,7 @@ const Home = () => {
             
                             <div class="first slide">
                                 <p className="ek">Quality Food. Great Service.</p>
-                                <p className="dho">I had approached to take last minute order for my aged parents.They took the order just a day prior and started giving hygienic, tasty and home styled food. The food quantity is sufficiently more, the package comes neatly packed well before the requested time.</p>
+                                <p className="dho">I had approached to take last minute order for my aged parents.They took the order just a day prior and started giving hygienic, tasty and home styled food. The quantity is sufficiently more, the package comes neatly packed well before the requested time.</p>
                                 <p className="theen">Preethi Jayakumar</p>
                             </div>
                             <div class="slide">

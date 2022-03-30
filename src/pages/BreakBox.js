@@ -1,14 +1,6 @@
 import React, { useEffect } from "react";
 import "./Box.css"
-import Banner from "./Banner"
-
 import spices from "./images/break.jpg";
-import art from "./images/art.jpg";
-import logo from "./images/mealbox_logo.jpg";
-import chart from "./images/din.gif";
-import menuchart from "./images/menucard.jpeg";
-import vege from "./images/vege.jpg";
-import mealbox from "./images/mealbox.jpg";
 import bgvision from "./images/bg-break.jpeg"
 import Helmet from "react-helmet";
 import breaks from "./images/din2.png"
@@ -22,6 +14,9 @@ const BreakBox = () => {
         backgroundImage: `url(${bgvision})`,
         
     }; 
+    useEffect(() => {    
+        document.title = "Jerusha | BreakBox";
+    });
     return (
         <div >
             <Helmet>
@@ -44,23 +39,23 @@ const BreakBox = () => {
                     <p className="s_t">No Time to Cook? Try Our Delicious Breakfast Today!</p>
                     <hr className="hrmeals"></hr>
                     <img className="img1" src= {spices}></img>
-                    <p className="parah2">Because of our hurried and stressful lives, we are unable to keep track of what we eat, and hence fail to achieve an ideal balanced diet for ourselves. As a result, everyone should start their day with a <b className="bold"> nutritious breakfast</b>. In today's environment, not everyone has enough time to prepare a variety of nutritious meals. This seed of an idea lead us to launch <b className="bold">"Break Box"</b> a homemade and nutrition-based food delivery service to your doorstep.
+                    <p className="parah3">Because of our hurried and stressful lives, we are unable to keep track of what we eat, and hence fail to achieve an ideal balanced diet for ourselves. As a result, everyone should start their day with a <b className="bold"> nutritious breakfast</b>. In today's environment, not everyone has enough time to prepare a variety of nutritious meals. This seed of an idea lead us to launch <b className="bold">"Break Box"</b> a homemade and nutrition-based food delivery service to your doorstep.
                     </p>
 
-                    <p className="t2">Are Your Seeking Tasty Homemade Food for Breakfast</p>
+                    <p className="tit-box">Are Your Seeking Tasty Homemade Food for Breakfast</p>
                     <hr className="hrmeals-break"></hr>
                     {/* <img className="img2" src= {art}></img> */}
-                    <p className="parah2"> <b className="bold">Jerusha Foods</b> cater to a homemade  <b className="bold">breakfast subscription 
+                    <p className="parah3"> <b className="bold">Jerusha Foods</b> cater to a homemade  <b className="bold">breakfast subscription 
                     pack</b> called  <b className="bold">“Break Box“.</b> The main aim of this service is people looking for healthy breakfast
                     for a day as per your requirements. That’s why we deliver a healthy and tasty breakfast
                     that gives you the great nutrition you need to tackle even the toughest day. Our chef genuinely
                     enjoys the whole process of procuring, preparing, cooking, and serving food. Atchayapathra’s <b className="bold">highly 
                     experienced chef</b> is an expert in giving directions to his team and maintains an amicable atmosphere.</p>
-
-                    <p className="parah2">Meals are made up of <b className="bold">fresh vegetables</b> to ensure the best taste and nutrition
+{/* 
+                    <p className="parah3">Meals are made up of <b className="bold">fresh vegetables</b> to ensure the best taste and nutrition
                      in every bite. We reach out to local farms to bring <b>delicious farm-fresh food</b> to your table. Our 
                      environmentally friendly and inventive packaging boxes guarantee the freshness of food without compromising 
-                     on the experience of indulging in South-Indian cuisine.</p>
+                     on the experience of indulging in South-Indian cuisine.</p> */}
                    
                    
 
@@ -118,7 +113,7 @@ const BreakBox = () => {
                     </div>
                     {/* <img className="menuchart" src= {menuchart}></img> */}
                     <p className="t2">We Feed Nutritious Food With Strict Safety</p>
-                    <hr className="hrmeals-break"></hr>
+                    <hr className="hrmeals-break-sec"></hr>
 
                     {/* <img className="vege" src= {vege}></img> */}
 
@@ -127,21 +122,22 @@ const BreakBox = () => {
                                         As a result, our foods are free of contamination and help to extend food shelf life.
                                         Our packaging method and style help us stand out from other similar products on the market.
                                         We also employ packaging machines that provide complete safety and cleanliness.
-                                        <br></br><br></br>
+                                       <b className="bold">Start Your Healthy Journey Now!</b>
+                    </p>
+                    <p className="parah2">
+                        Do you wish you could keep things easy and have a healthy breakfast delivered to your house or workplace?
+                        Don't be concerned; we've got you covered! Call us today if you need a <b className="bold">healthy vegetarian breakfast in 
+                        Ranipet,</b> and we'll assist you enjoy a better nutrition meal experience. Our delivery crew will pick
+                        up your freshly prepared dinner from our kitchen and deliver it to your house on time.
 
-                                        Do you wish you could keep things easy and have a healthy breakfast delivered to your house or workplace?
-                                        Don't be concerned; we've got you covered! Call us today if you need a <b className="bold">healthy vegetarian breakfast in 
-                                        Ranipet,</b> and we'll assist you enjoy a better nutrition meal experience. Our delivery crew will pick
-                                        up your freshly prepared dinner from our kitchen and deliver it to your house on time.
-                                        <br></br><br></br>
-
-                                        A happier lifestyle is associated with the decisions we make to live a healthy existence. One of your first 
-                                        steps toward a better living could be selecting <b>"Break Box."</b> Our meals are designed with our customers'
-                                        preferences in mind.
-                                        <br></br><br></br>
-
-                                        <b className="bold">Start Your Healthy Journey Now!</b></p>
-                                        <img className="img8" src= {breaks}></img>
+                    </p>
+                    <p className="parah2">
+                        
+                        A happier lifestyle is associated with the decisions we make to live a healthy existence. One of your first 
+                        steps toward a better living could be selecting <b>"Break Box."</b> Our meals are designed with our customers'
+                        preferences in mind.
+                    </p>
+                                        {/* <img className="img8" src= {breaks}></img> */}
                 </div>
                 {/* <div>
                     <p className="top">Get Your Special Plans</p>

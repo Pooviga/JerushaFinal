@@ -92,6 +92,14 @@
     margin-bottom: 10px;
     width: 13%;
 }
+.hrmeals-break-sec{
+    border: 2px solid #FF0000;
+    background-color: #FF0000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 13%;
+    margin-left: 5%;
+}
 
 .img1{
     height: 300px;
@@ -101,10 +109,19 @@
 }
 .img9{
     height: 250px;
-    width: 100%;
+    width: 90%;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 6%;
     
+}
+@media only screen and (max-width:800px){
+    .img9{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
 }
 .img8{
     height: 350px;
@@ -118,11 +135,21 @@
     color: black;
     margin-top: 30px;
     line-height: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
+@media only screen and (max-width:800px) {
+    .parah2{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
 .parah3-dinner{
     color: black;
     margin-top: 1%;
     line-height: 30px;
+    
 }
 
 .img2{
@@ -216,13 +243,26 @@
 
 }
 
-
+.tit-box{
+    margin-top: 45px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
 .t2{
     /* margin-top: 100px; */
     margin-top: 45px;
     font-size: 25px;
     font-weight: bold;
     color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+@media only screen and (max-width:800px) {
+    .t2{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
 }
 
 .vege{
@@ -232,9 +272,8 @@
 }
 
 .parah3{
+    margin-top: 3%;
     color: black;
-    margin-top: -80px;
-    letter-spacing: -0.5px;
     line-height: 2;
 }
 .bold{

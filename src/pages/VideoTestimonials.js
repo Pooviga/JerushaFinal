@@ -1,9 +1,6 @@
 import React, { useEffect } from "react";
 import "./Vision.css";
-import Banner from "./Banner"
-import Footer from "../components/Layout/Footer/Footer"
 import video from './images/videotest1.mp4';
-import play from './images/circled-play.png';
 import "./VideoTestimonials.css";
 import bgvision from './images/bg-video.jpg';
 import logo from './images/gold.png';
@@ -18,6 +15,9 @@ const VideoTestimonials = () => {
         backgroundImage: `url(${bgvision})`,
         
     };  
+    useEffect(() => {    
+        document.title = "Jerusha | Video";
+    });
     return (
         <div>
             <div>

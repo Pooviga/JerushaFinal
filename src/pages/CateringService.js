@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import "./CateringService.css"
-import Banner from "./Banner"
 import foodimg from './images/food.jfif';
 import wedcatering from './images/wed-catering.jpg'
 import bgcatering from './images/bg-catering.jpg'
+import vege from './images/nutrition3.jpg'
 
 const CateringService = () => {
     useEffect(() => {
@@ -19,6 +19,9 @@ const CateringService = () => {
         backgroundImage: `url(${bgcatering})`,
         
     };  
+    useEffect(() => {    
+        document.title = "Jerusha | Catering";
+    });
     return (
         <div>
              <div className="box-search-catering" style={myStylecatering}></div>
@@ -54,7 +57,7 @@ const CateringService = () => {
                 <div className="catsplit-left-two">
                     <div class="containernutrition-two">
                         
-                                <img src={wedcatering} alt="Snow" className="vegetables-two"></img>
+                                <img src={vege} alt="Snow" className="vegetables-two"></img>
                                 <div class="bottom-left-nut-two">
                                     <p className="img-nut-cap-two">Jerusha Catering Service</p>
                                     <p className="img-nut-cap2-two">Party Catering</p>

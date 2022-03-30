@@ -91,8 +91,8 @@ const HomePage = () => {
                         <p className="menu-caption-meals">VEG MEALS</p>
                     </div>
                     <div class="my-card">
-                        <img src={plainbriyani} className="menu-img"></img>
-                        <p className="menu-caption">PLAIN BRIYANI</p>
+                        <img src={plainbriyani} className="menu-img-limerice"></img>
+                        <p className="menu-caption-limerice">PLAIN BRIYANI</p>
                     </div>
                     <div class="my-card">
                         <img src={tomato} className="menu-img-tomatorice"></img>
@@ -118,8 +118,6 @@ const HomePage = () => {
                         <img src={ghee} className="menu-img-gheerice"></img>
                         <p className="menu-caption-gheerice">GHEE RICE</p>
                     </div>
-    
-                        ...
                 </div>
             
             {/* <div style={catStyle} className=""></div> */}
@@ -147,10 +145,10 @@ const HomePage = () => {
                         <img src={eggbriyani} className="menu-img-eggbriyani"></img>
                         <p className="menu-caption-eggbriyani">EGG BRIYANI</p>
                     </div>
-                    <div class="my-cardnv">
+                    {/* <div class="my-cardnv">
                     <img src={onion} className="menu-img"></img>
                         <p className="menu-caption">PLAIN BRIYANI</p>
-                    </div>
+                    </div> */}
                     <div class="my-cardnv">
                     <img src={chickengravy} className="menu-img-chickengravy"></img>
                         <p className="menu-caption-chickengravy">CHICKEN GRAVY</p>

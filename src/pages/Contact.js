@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./Contact.css"
-import Banner from "./Banner"
 import Chef from './images/ci.png';
 import bgcontact from './images/bg-contact.jpg'
 // import { MDBIcon, MDBContainer, MDBBtn } from 'mdbreact';
@@ -14,6 +13,9 @@ const Contact = () => {
         backgroundImage: `url(${bgcontact})`,
         
     };  
+    useEffect(() => {    
+        document.title = "Jerusha | Contact";
+    });
     return (
         <div >
             <div className="box-search-contact" style={myStylecontact}>
