@@ -153,6 +153,12 @@
     margin-top: 5%;
     line-height: 30px;
 }
+@media only screen and (max-width:800px){
+    .about-top-para{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
 .about-bold{
     color: black;
     font-weight: bolder;

@@ -28,7 +28,7 @@ const DinnerBox = () => {
             </div>
             <div className="boxsplit max-w-content w-full mx-auto">
                 <div className="boxsplit-left">
-                    <p className="top">Corporate Subscription Dinner Box</p>
+                    <p className="top"> Subscription Dinner Box</p>
                     <p className="f_t">Dinner Box</p>
                     <p className="parah1">“Dining made smoother and more enjoyable with exciting varieties.”</p>
                     <p className="s_t">Why Dinner Is Important?</p>

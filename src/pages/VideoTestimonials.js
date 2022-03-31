@@ -41,7 +41,7 @@ const VideoTestimonials = () => {
                             </div>
                             </a>
                         </div>
-                        <div className="x" id="sliceX2">
+                        {/* <div className="x" id="sliceX2">
                             <a href={video} target="_blank"><video className="videos" poster="//s3-us-west-2.amazonaws.com/s.cdpn.io/3174/poster.png"></video>
                             <div className="play-img">
                             <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
@@ -49,8 +49,8 @@ const VideoTestimonials = () => {
 </svg>
                             </div>
                             </a>
-                        </div>
-                        <div className="x" id="sliceX2">
+                        </div> */}
+                        {/* <div className="x" id="sliceX2">
                             <a href={video} target="_blank"><video className="videos" poster="//s3-us-west-2.amazonaws.com/s.cdpn.io/3174/poster.png"></video>
                             <div className="play-img">
                             <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
@@ -58,7 +58,7 @@ const VideoTestimonials = () => {
 </svg>
                             </div>
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
     

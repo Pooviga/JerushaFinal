@@ -49,8 +49,7 @@ const BreakBox = () => {
                     pack</b> called  <b className="bold">“Break Box“.</b> The main aim of this service is people looking for healthy breakfast
                     for a day as per your requirements. That’s why we deliver a healthy and tasty breakfast
                     that gives you the great nutrition you need to tackle even the toughest day. Our chef genuinely
-                    enjoys the whole process of procuring, preparing, cooking, and serving food. Atchayapathra’s <b className="bold">highly 
-                    experienced chef</b> is an expert in giving directions to his team and maintains an amicable atmosphere.</p>
+                    enjoys the whole process of procuring, preparing, cooking, and serving food.</p>
 {/* 
                     <p className="parah3">Meals are made up of <b className="bold">fresh vegetables</b> to ensure the best taste and nutrition
                      in every bite. We reach out to local farms to bring <b>delicious farm-fresh food</b> to your table. Our 
@@ -124,13 +123,7 @@ const BreakBox = () => {
                                         We also employ packaging machines that provide complete safety and cleanliness.
                                        <b className="bold">Start Your Healthy Journey Now!</b>
                     </p>
-                    <p className="parah2">
-                        Do you wish you could keep things easy and have a healthy breakfast delivered to your house or workplace?
-                        Don't be concerned; we've got you covered! Call us today if you need a <b className="bold">healthy vegetarian breakfast in 
-                        Ranipet,</b> and we'll assist you enjoy a better nutrition meal experience. Our delivery crew will pick
-                        up your freshly prepared dinner from our kitchen and deliver it to your house on time.
-
-                    </p>
+                    
                     <p className="parah2">
                         
                         A happier lifestyle is associated with the decisions we make to live a healthy existence. One of your first 

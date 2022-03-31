@@ -29,13 +29,13 @@ const MealsBox = () => {
             </div>
             <div className="boxsplit max-w-content w-full mx-auto">
                 <div className="boxsplit-left">
-                    <p className="top">Corporate Subscription Lunch Box</p>
+                    <p className="top">Subscription Lunch Box</p>
                     <p className="f_t">#1 Monthly Food Delivery Service</p>
-                    <p className="parah1">“Corporate employees can choose from 250+ variety of rice.”</p>
+                    <p className="parah1">“Variety of dishes at affordable cost”</p>
                     <p className="s_t">Who Has The Time To Prepare Such A Meal?</p>
                     <hr className="hrmeals"></hr>
                     <img className="img1" src= {spices}></img>
-                    <p className="parah3">On a monthly basis, food is delivered. Lunch that is excellent for you on a regular basis Box was designed with your requirements in mind. We've seen you before. We recognise that you work 12-hour shifts and require home-cooked breakfast, lunch, and dinner. We're familiar with your hectic work schedule, deadlines, conference calls, and countless business meetings. To put it another way, to get through it all, you'll need superhuman strength. When you think of strength, the first thing that comes to mind is undoubtedly food. Yes, you may order a healthy food subscription.
+                    <p className="parah3">On a monthly basis, food is delivered. Lunch that is excellent for you on a regular basis. Box was designed with your requirements in mind. We've seen you before. We recognise that you work 12 hour shifts and require home-cooked breakfast, lunch, and dinner. We're familiar with your hectic work schedule, deadlines, conference calls, and countless business meetings. To put it another way, to get through it all, you'll need superhuman strength. When you think of strength, the first thing that comes to mind is undoubtedly food. Yes, you may order a healthy food subscription.
                     </p>
                     {/* <img className="img2" src= {art}></img>             */}
 
@@ -95,7 +95,7 @@ const MealsBox = () => {
                         </table>
                     </div>
                     <p className="t2">Monthly Food Delivery in Ranipet</p>
-                    <p className="parah2">We've got you covered with our Lunch Delivery Box. Traditional South Indian Lunch is featured in this box. Employees can choose from more than 250 varieties of rice. This nutritious lunch box is presented in a beautiful Lunch Box that is equally pleasing to the eye. Jerusha Foods Catering Service delivers vegetarian meals to your house or business on a regular basis.</p>
+                    <p className="parah2">We've got you covered with our Lunch Delivery Box. Traditional South Indian Lunch is featured in this box.Jerusha Foods Catering Service delivers vegetarian and non-vegetarian meals to your house or business on a regular basis.</p>
                 </div>
                 {/* <div>
                     <p className="top">Get Your Special Plans</p>

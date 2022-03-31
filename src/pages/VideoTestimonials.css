@@ -54,15 +54,18 @@
 .play-img{  
   width: 60px;
   position: absolute;
-  left: 50%;
+  left: 16%;
   top: 50%;
   transform: translate(-50%,-50%);
   cursor: pointer;
-  z-index: 100;
+  z-index: 1;
 }
 @media only screen and (max-width:1200px){
   .videos{
     width: 100%;
+  }
+  .play-img{
+    left: 50%;
   }
 }
 .video-player{
@@ -71,7 +74,7 @@ position: absolute;
 left: 50%;
 right:50%;
 transform: translate(-50%,-50%);
-z-index:1000;
+z-index:-1;
 }
 .box-search-video{
   height: 90vh;
