@@ -91,7 +91,7 @@ const Nav = ({ navLinks, menuToggleHandler }) => {
         <SNav>
             
             <div className={colorChangeText ? "home-link menu-black" : "home-link-notsc menu"} >
-            <a href="https://www.jerushahomefoods.com" className={colorChangeText ? "home-link-text menu-black" : "home-link-notsc-text menu"}>HOME</a>
+            <a href="https://jerushahomefoods.com" className={colorChangeText ? "home-link-text menu-black" : "home-link-notsc-text menu"}>HOME</a>
             
             </div>
             
