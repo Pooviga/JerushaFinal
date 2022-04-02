@@ -99,10 +99,10 @@ const Home = (props) => {
                     <p className="two">Our delivery team will collect your freshly prepared dinner from our kitchen and deliver it to your house on time. Good luck with your meal!</p>
                 </div>
             </div>
-            <div class="container-home">
+            <div className="container-home">
                 <img className="poster-top" src={center_image}></img>
                 <div className="poster-top-mob"></div>
-                <div class="centered-home">
+                <div className="centered-home">
                     <div className="mini">
                         <img className="small" src={people}></img>
                         Corporate Orders
@@ -368,12 +368,12 @@ const Home = (props) => {
             </div>
             </div>
             
-            <div class="container-home">
+            <div className="container-home">
                 <img className="poster"src={imgscroll}></img>
                 <img className="postermobile" src={eat4}></img>
-                <div class="right">
-                        <div class="slider-home">
-                            <div class="imgs_slides">
+                <div className="right">
+                        <div className="slider-home">
+                            <div className="imgs_slides">
             
                             <input type="radio" name="radio-btn" id="radio1" />
             
@@ -385,17 +385,17 @@ const Home = (props) => {
             
                             <input type="radio" name="radio-btn" id="radio5" />
             
-                            <div class="first slide">
+                            <div className="first slide">
                                 <p className="ek">Quality Food. Great Service.</p>
                                 <p className="dho">I had approached to take last minute order for my aged parents.They took the order just a day prior and started giving hygienic, tasty and home styled food. The quantity is sufficiently more, the package comes neatly packed well before the requested time.</p>
                                 <p className="theen">Preethi Jayakumar</p>
                             </div>
-                            <div class="slide">
+                            <div className="slide">
                                 <p className="ek">Real Value for Money</p>
                                 <p className="dho">Best,quality and affordable home style food in Ranipet. I strongly recommended to everyone those who are in or around Ranipet surroundings. Thank you Jerusha Home Foods.</p>
                                 <p className="theen">Office Alaparai</p>
                             </div>
-                            <div class="slide">
+                            <div className="slide">
                                 <p className="ek">Feel like My Mom's Cooking</p>
                                 <p className="dho">I recommend you all to taste this homemade food. 
                                 It really made me feel like my mom's cooking. 
@@ -403,21 +403,21 @@ const Home = (props) => {
                                 Thanks to my friend who suggested me easy dine kitchen.</p>
                                 <p className="theen">Kruthika</p>
                             </div>
-                            <div class="slide">
+                            <div className="slide">
                                 <p className="ek">Quality Food. Great Service.</p>
                                 <p className="dho">Affordable and perfect home style food at ranipet .People in and around ranipet approach for best quality of food</p>
                                 <p className="theen">Phenil Ruban</p>
                             </div>
                         </div>
             
-                        <div class="navigation-home">
-                            <label for="radio1" class="navigation-btn">
+                        <div className="navigation-home">
+                            <label for="radio1" className="navigation-btn">
                             </label>
-                            <label for="radio2" class="navigation-btn">
+                            <label for="radio2" className="navigation-btn">
                             </label>
-                            <label for="radio3" class="navigation-btn">
+                            <label for="radio3" className="navigation-btn">
                             </label>
-                            <label for="radio4" class="navigation-btn">
+                            <label for="radio4" className="navigation-btn">
                             </label>
                         </div>
                     </div>
