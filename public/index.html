@@ -97,7 +97,8 @@
         
 
         //image slider previous button
-        prevBtn.addEventListener("click", () => {
+        if(prevBtn){
+          prevBtn.addEventListener("click", () => {
           slides.forEach((slide) => {
             slide.classList.remove("active");
           });
@@ -114,6 +115,8 @@
           slides[slideNumber].classList.add("active");
           slideIcons[slideNumber].classList.add("active");
         });
+        }
+        
 
         //image slider autoplay
         var playSlider;
