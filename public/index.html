@@ -78,10 +78,16 @@
         if(nextBtn){
           nextBtn.addEventListener("click", () => {
           slides.forEach((slide) => {
-            slide.classList.remove("active");
+            if(slide){
+              slide.classList.remove("active");
+            }
+            
           });
           slideIcons.forEach((slideIcon) => {
-            slideIcon.classList.remove("active");
+            if(slideIcon){
+              slideIcon.classList.remove("active");
+            }
+            
           });
 
           slideNumber++;
