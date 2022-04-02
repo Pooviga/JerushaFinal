@@ -1,8 +1,8 @@
 {
   "name": "react-redux-boiler",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
   "dependencies": {
     "@mui/icons-material": "^5.4.1",
     "@mui/material": "^5.4.1",
