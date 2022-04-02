@@ -95,9 +95,13 @@
           if(slideNumber > (numberOfSlides - 1)){
             slideNumber = 0;
           }
-
-          slides[slideNumber].classList.add("active");
-          slideIcons[slideNumber].classList.add("active");
+          if(slides){
+           slides[slideNumber].classList.add("active");
+          }
+          if(slideIcons){
+            slideIcons[slideNumber].classList.add("active");
+          }
+          
         });
         }
         
@@ -106,10 +110,16 @@
         if(prevBtn){
           prevBtn.addEventListener("click", () => {
           slides.forEach((slide) => {
-            slide.classList.remove("active");
+            if(slide){
+              slide.classList.remove("active");
+            }
+            
           });
           slideIcons.forEach((slideIcon) => {
-            slideIcon.classList.remove("active");
+            if(slideIcon){
+              slideIcon.classList.remove("active");
+            }
+            
           });
 
           slideNumber--;
@@ -117,9 +127,13 @@
           if(slideNumber < 0){
             slideNumber = numberOfSlides - 1;
           }
-
-          slides[slideNumber].classList.add("active");
-          slideIcons[slideNumber].classList.add("active");
+          if(slides){
+            slides[slideNumber].classList.add("active");
+          }
+          if(slideIcons){
+            slideIcons[slideNumber].classList.add("active");
+          }
+          
         });
         }
         
@@ -130,10 +144,15 @@
         var repeater = () => {
           playSlider = setInterval(function(){
             slides.forEach((slide) => {
-              slide.classList.remove("active");
+              if(slide){
+                slide.classList.remove("active");
+              }
             });
             slideIcons.forEach((slideIcon) => {
-              slideIcon.classList.remove("active");
+              if(slideIcon){
+                slideIcon.classList.remove("active");
+              }
+              
             });
 
             slideNumber++;
@@ -141,9 +160,13 @@
             if(slideNumber > (numberOfSlides - 1)){
               slideNumber = 0;
             }
-
-            slides[slideNumber].classList.add("active");
-            slideIcons[slideNumber].classList.add("active");
+            if(slides){
+              slides[slideNumber].classList.add("active");
+            }
+            if(slideIcons){
+              slideIcons[slideNumber].classList.add("active");
+            }
+            
           }, 10000);
         }
         repeater();
@@ -174,10 +197,15 @@
         if(nextBtn1){
           nextBtn1.addEventListener("click", () => {
           slides1.forEach((slide1) => {
-            slide1.classList.remove("active");
+            if(slide1){
+              slide1.classList.remove("active");
+            }
+            
           });
           slideIcons1.forEach((slideIcon1) => {
-            slideIcon1.classList.remove("active");
+            if(slideIcon1){
+              slideIcon1.classList.remove("active");
+            }
           });
 
           slideNumber1++;
@@ -186,8 +214,13 @@
             slideNumber1 = 0;
           }
 
-          slides1[slideNumber1].classList.add("active");
-          slideIcons1[slideNumber1].classList.add("active");
+          if(slides1){
+            slides1[slideNumber1].classList.add("active");
+          }
+          if(slideIcons1){
+            slideIcons1[slideNumber1].classList.add("active");
+          }
+          
         });
 
         }
@@ -196,10 +229,16 @@
         if(prevBtn1){
           prevBtn1.addEventListener("click", () => {
           slides1.forEach((slide1) => {
-            slide1.classList.remove("active");
+            if(slide1){
+              slide1.classList.remove("active");
+            }
+            
           });
           slideIcons1.forEach((slideIcon1) => {
-            slideIcon1.classList.remove("active");
+            if(slideIcon1){
+              slideIcon1.classList.remove("active");
+            }
+            
           });
 
           slideNumber1--;
@@ -208,8 +247,13 @@
             slideNumber1 = numberOfSlides1 - 1;
           }
 
-          slides1[slideNumber1].classList.add("active");
-          slideIcons1[slideNumber1].classList.add("active");
+          if(slider1){
+            slides1[slideNumber1].classList.add("active");
+          }
+          if(slideIcons1){
+            slideIcons1[slideNumber1].classList.add("active");
+          }
+          
         });
         }
         
@@ -220,10 +264,16 @@
         var repeater1 = () => {
           playSlider1 = setInterval(function(){
             slides1.forEach((slide1) => {
-              slide1.classList.remove("active");
+              if(slide1){
+                slide1.classList.remove("active");
+              }
+              
             });
             slideIcons1.forEach((slideIcon1) => {
-              slideIcon1.classList.remove("active");
+              if(slideIcon1){
+                slideIcon1.classList.remove("active");
+              }
+              
             });
 
             slideNumber1++;
@@ -232,8 +282,13 @@
               slideNumber1 = 0;
             }
 
-            slides1[slideNumber1].classList.add("active");
-            slideIcons1[slideNumber1].classList.add("active");
+            if(slides1){
+              slides1[slideNumber1].classList.add("active");
+            }
+            if(slideIcons1){
+              slideIcons1[slideNumber1].classList.add("active");
+            }
+            
           }, 10000);
         }
         repeater1();
