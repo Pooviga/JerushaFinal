@@ -75,7 +75,8 @@
         var slideNumber = 0;
 
         //image slider next button
-        nextBtn.addEventListener("click", () => {
+        if(nextBtn){
+          nextBtn.addEventListener("click", () => {
           slides.forEach((slide) => {
             slide.classList.remove("active");
           });
@@ -92,6 +93,8 @@
           slides[slideNumber].classList.add("active");
           slideIcons[slideNumber].classList.add("active");
         });
+        }
+        
 
         //image slider previous button
         prevBtn.addEventListener("click", () => {
