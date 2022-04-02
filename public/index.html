@@ -143,7 +143,8 @@
         repeater();
 
         //stop the image slider autoplay on mouseover
-        slider.addEventListener("mouseover", () => {
+        if(slider){
+          slider.addEventListener("mouseover", () => {
           clearInterval(playSlider);
         });
 
@@ -152,6 +153,8 @@
           repeater();
         });
 
+        }
+        
 
         const slider1 = document.querySelector(".slider_z");
         const nextBtn1 = document.querySelector(".next-btn_z");
@@ -162,7 +165,8 @@
         var slideNumber1 = 0;
 
         //image slider next button
-        nextBtn1.addEventListener("click", () => {
+        if(nextBtn1){
+          nextBtn1.addEventListener("click", () => {
           slides1.forEach((slide1) => {
             slide1.classList.remove("active");
           });
@@ -180,8 +184,11 @@
           slideIcons1[slideNumber1].classList.add("active");
         });
 
+        }
+        
         //image slider previous button
-        prevBtn1.addEventListener("click", () => {
+        if(prevBtn1){
+          prevBtn1.addEventListener("click", () => {
           slides1.forEach((slide1) => {
             slide1.classList.remove("active");
           });
@@ -198,6 +205,8 @@
           slides1[slideNumber1].classList.add("active");
           slideIcons1[slideNumber1].classList.add("active");
         });
+        }
+        
 
         //image slider autoplay
         var playSlider1;
