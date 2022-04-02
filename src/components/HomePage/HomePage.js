@@ -1,7 +1,4 @@
 import React from "react";
-import {  STitle } from "./styles";
-import Banner from "../../pages/Banner";
-import { Helmet } from "react-helmet";
 import "./HomePage.css"
 import chapathi from "./images/chapathi.jfif"
 import idly from "./images/idli.jfif"

@@ -4,7 +4,7 @@ import Banner from "./Banner"
 import foodimg from './images/about-food.png';
 import bgcontact from './images/about-bg.jpg'
 
-const CateringService = () => {
+const About = () => {
     useEffect(() => {
         window.history.scrollRestoration = 'manual'
         window.scrollTo(0, 0)
@@ -74,4 +74,4 @@ const CateringService = () => {
     );
 };
 
-export default CateringService;
+export default About;

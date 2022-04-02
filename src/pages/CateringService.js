@@ -11,10 +11,7 @@ const CateringService = () => {
         window.scrollTo(0, 0)
       }, [])
     
-      const catStyle={
-        backgroundImage: 
- `url(${foodimg})`,
-    };
+      
     const myStylecatering={
         backgroundImage: `url(${bgcatering})`,
         
