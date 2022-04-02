@@ -30,9 +30,8 @@
 }
 @media (max-width: 800px) {
     .aboutsplit-right {
-      flex: 100%;
-      margin-left: 5%;
-      margin-right: 5%;
+      display: none;
+
     }
     .aboutsplit-left {
         flex: 100%;
