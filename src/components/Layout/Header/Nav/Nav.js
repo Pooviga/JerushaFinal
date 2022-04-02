@@ -69,7 +69,6 @@ const Nav = ({ navLinks, menuToggleHandler }) => {
     const [colorChangeText, setColorchangeText] = useState(false);
     const changeNavbarColorText = () =>{
        if(window.scrollY >= 80){
-           console.log('scr');
          setColorchangeText(true);
        }
        else{
