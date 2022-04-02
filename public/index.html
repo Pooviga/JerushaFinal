@@ -233,7 +233,8 @@
         repeater1();
 
         //stop the image slider autoplay on mouseover
-        slider1.addEventListener("mouseover", () => {
+        if(slider1){
+          slider1.addEventListener("mouseover", () => {
           clearInterval(playSlider1);
         });
 
@@ -241,6 +242,8 @@
         slider1.addEventListener("mouseout", () => {
           repeater1();
         });
+        }
+        
 
 
         $("#Video1").bind("ended", function() {
